@@ -1,0 +1,42 @@
+{
+  "AssetClass": "FontFace",
+  "AssetPackage": "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular",
+  "AssetName": "OpenSans-Regular",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "AssetObjectData": {
+      "SourceFilename": "../../../../FSD/Content/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ufont"
+    },
+    "FontPayloadHash": "3eb5459d91a5743e0deaf2c7d7896b081fb04"
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 2,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 2,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/Led_Small02",
+  "AssetName": "Led_Small02",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "Font",
+              "Font": {
+                "FontFaceAsset": 6,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        }
+      },
+      "$ReferencedObjects": [
+        6
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 4,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 4,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 4,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 4,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Export",
+      "ObjectClass": 1,
+      "Outer": 5,
+      "ObjectName": "Led_Small02_0_Font",
+      "ObjectFlags": 0,
+      "Properties": {
+        "SourceFilename": "../../../../FSD/Content/Art/Fonts/Led_Small02_0_Font.ufont",
+        "$ReferencedObjects": []
+      }
+    }
+  ]
+}

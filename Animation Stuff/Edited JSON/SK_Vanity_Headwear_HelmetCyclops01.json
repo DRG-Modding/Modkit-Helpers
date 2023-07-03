@@ -1,0 +1,129 @@
+{
+  "AssetClass": "SkeletalMesh",
+  "AssetPackage": "/Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01",
+  "AssetName": "SK_Vanity_Headwear_HelmetCyclops01",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "AssetObjectData": {
+      "Skeleton": 4,
+      "LODInfo": [
+        {
+          "ScreenSize": {
+            "Default": 1.0
+          },
+          "LODHysteresis": 0.02,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": false,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.0009765625,
+            "MorphThresholdPosition": 0.015
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 1.0,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.0,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "bLockColorBounaries": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": -1,
+          "BakePoseOverride": -1,
+          "SkinCacheUsage": "ESkinCacheUsage::Auto",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        }
+      ],
+      "bHasVertexColors": true,
+      "SamplingInfo": {
+        "BuiltData": {
+          "WholeMeshBuiltData": [
+            {
+              "WholeMeshBuiltData": "##NOT SERIALIZED##"
+            }
+          ]
+        }
+      }
+    },
+    "Materials": [
+      {
+        "MaterialSlotName": "Material #2569",
+        "MaterialInterface": -1
+      }
+    ],
+    "ModelFileHash": "32aa5d18e27324cb6b724a460359aa2b"
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 1,
+      "ObjectName": "SkeletalMesh"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/CharacterStructure/Rig/3P_Dwarf_Rig_Skeleton"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMesh",
+      "Outer": 1,
+      "ObjectName": "Default__SkeletalMesh"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Skeleton",
+      "Outer": 1,
+      "ObjectName": "3P_Dwarf_Rig_Skeleton"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

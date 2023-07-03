@@ -1,0 +1,12 @@
+# ignore all files with .psk, .psa, .pskx, .fbx extension
+*.psk
+*.psa
+*.pskx
+*.fbx
+
+Animation Stuff/*
+!Animation Stuff/Edited JSON
+
+Cooked/*
+
+Assets/*

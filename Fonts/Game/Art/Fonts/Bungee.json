@@ -1,0 +1,187 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/Bungee",
+  "AssetName": "Bungee",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [
+      "/Game/Art/Fonts/Bungee_Regular",
+      "/Game/Art/Fonts/Bungee_Hairline_Regular",
+      "/Engine/EngineFonts/Faces/DroidSansFallback",
+      "/Game/Art/Fonts/Tajawal/Tajawal-Bold"
+    ],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "2. Black",
+              "Font": {
+                "FontFaceAsset": 4,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "1. Thin",
+              "Font": {
+                "FontFaceAsset": 3,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        },
+        "FallbackTypeface": {
+          "Typeface": {
+            "Fonts": [
+              {
+                "Name": "Font",
+                "Font": {
+                  "FontFaceAsset": 2,
+                  "FontFilename": "",
+                  "Hinting": "EFontHinting::Default",
+                  "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                  "SubFaceIndex": 0
+                }
+              }
+            ]
+          }
+        },
+        "SubTypefaces": [
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1536
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1791
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 5,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.5
+          }
+        ]
+      },
+      "$ReferencedObjects": [
+        4,
+        3,
+        2,
+        5
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 10,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 10,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 6,
+      "ObjectName": "DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 7,
+      "ObjectName": "Bungee_Hairline_Regular"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 8,
+      "ObjectName": "Bungee_Regular"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 9,
+      "ObjectName": "Tajawal-Bold"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Engine/EngineFonts/Faces/DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Bungee_Hairline_Regular"
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Bungee_Regular"
+    },
+    {
+      "ObjectIndex": 9,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Tajawal/Tajawal-Bold"
+    },
+    {
+      "ObjectIndex": 10,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 11,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ContentDir": "F:\\DRG Modding\\DRGPacker\\_unpacked\\FSD\\Content",
+  "ParseDir": "F:\\DRG Modding\\DRGPacker\\_unpacked\\FSD\\Content\\WeaponsNTools\\Grenades\\PlasmaBoomerang",
+  "JSONDir": "F:\\DRG Modding\\DRGPacker\\JSON\\Assets",
+  "CookedDir": "F:\\DRG Modding\\DRGPacker\\JSON\\Cooked",
+  "InfoDir": "F:\\DRG Modding\\DRGPacker\\JSON",
+  "GlobalUEVersion": 522,
+  "RefreshAssets": true,
+  "DummyWithProps": false,
+  "SkipSerialization": [
+    2,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "DummyAssets": [],
+  "DeleteAssets": [],
+  "CircularDependency": [
+    "/Script/Engine.CurveVector"
+  ],
+  "SimpleAssets": [
+    "/Script/Engine.CurveVector"
+  ],
+  "TypesToCopy": [
+    "/Script/Engine.AimOffsetBlendSpace",
+    "/Script/Engine.AimOffsetBlendSpace1D",
+    "/Script/Engine.BlendSpace",
+    "/Script/Engine.BlendSpace1D",
+    "/Script/Engine.AnimComposite"
+  ],
+  "SelectedIndex": 28
+}

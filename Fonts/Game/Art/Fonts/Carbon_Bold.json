@@ -1,0 +1,42 @@
+{
+  "AssetClass": "FontFace",
+  "AssetPackage": "/Game/Art/Fonts/Carbon_Bold",
+  "AssetName": "Carbon_Bold",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "AssetObjectData": {
+      "SourceFilename": "../../../../FSD/Content/Art/Fonts/Carbon_Bold.ufont"
+    },
+    "FontPayloadHash": "f5fcf0cee448f22197b7e34f20e4fc7655ec"
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 2,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 2,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

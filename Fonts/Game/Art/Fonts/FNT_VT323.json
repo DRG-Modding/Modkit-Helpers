@@ -1,0 +1,90 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/FNT_VT323",
+  "AssetName": "FNT_VT323",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "VT323",
+              "Font": {
+                "FontFaceAsset": 6,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        }
+      },
+      "$ReferencedObjects": [
+        6
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 4,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 4,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 4,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 4,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Export",
+      "ObjectClass": 1,
+      "Outer": 5,
+      "ObjectName": "FNT_VT323_0_VT323",
+      "ObjectFlags": 0,
+      "Properties": {
+        "SourceFilename": "../../../../FSD/Content/Art/Fonts/FNT_VT323_0_VT323.ufont",
+        "$ReferencedObjects": []
+      }
+    }
+  ]
+}

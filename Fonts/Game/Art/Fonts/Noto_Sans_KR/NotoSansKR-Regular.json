@@ -1,0 +1,42 @@
+{
+  "AssetClass": "FontFace",
+  "AssetPackage": "/Game/Art/Fonts/Noto_Sans_KR/NotoSansKR-Regular",
+  "AssetName": "NotoSansKR-Regular",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "AssetObjectData": {
+      "SourceFilename": "../../../../FSD/Content/Art/Fonts/Noto_Sans_KR/NotoSansKR-Regular.ufont"
+    },
+    "FontPayloadHash": "210989664066c01d8ffdbdf56bb773cd4865f4"
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 2,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 2,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/Acumin_Pro_Condensed",
+  "AssetName": "Acumin_Pro_Condensed",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [
+      "/Game/Art/Fonts/Acumin_Pro_Condensed_Normal",
+      "/Game/Art/Fonts/Acumin_Pro_Condensed_Thin",
+      "/Game/Art/Fonts/Acumin_Pro_Condensed_Bold",
+      "/Game/Art/Fonts/Acumin_Pro_Condensed_italic",
+      "/Engine/EngineFonts/Faces/DroidSansFallback",
+      "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular",
+      "/Game/Art/Fonts/Noto_Sans_KR/NotoSansKR-Regular",
+      "/Game/Art/Fonts/Tajawal/Tajawal-Regular"
+    ],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "Condensed Normal",
+              "Font": {
+                "FontFaceAsset": 5,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Condensed Thin",
+              "Font": {
+                "FontFaceAsset": 6,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Condensed Bold",
+              "Font": {
+                "FontFaceAsset": 3,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Condensed Italic",
+              "Font": {
+                "FontFaceAsset": 4,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        },
+        "FallbackTypeface": {
+          "Typeface": {
+            "Fonts": [
+              {
+                "Name": "Font",
+                "Font": {
+                  "FontFaceAsset": 2,
+                  "FontFilename": "",
+                  "Hinting": "EFontHinting::Default",
+                  "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                  "SubFaceIndex": 0
+                }
+              }
+            ]
+          }
+        },
+        "SubTypefaces": [
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1024
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1279
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 8,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 0.85
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 4352
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 4607
+                }
+              },
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 44032
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 55215
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 7,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                },
+                {
+                  "Name": "Font_0",
+                  "Font": {
+                    "FontFaceAsset": 7,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 0.85
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1536
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1791
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 9,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          }
+        ]
+      },
+      "$ReferencedObjects": [
+        5,
+        6,
+        3,
+        4,
+        2,
+        8,
+        7,
+        9
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 18,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 18,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 10,
+      "ObjectName": "DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 11,
+      "ObjectName": "Acumin_Pro_Condensed_Bold"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 12,
+      "ObjectName": "Acumin_Pro_Condensed_italic"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 13,
+      "ObjectName": "Acumin_Pro_Condensed_Normal"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 14,
+      "ObjectName": "Acumin_Pro_Condensed_Thin"
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 15,
+      "ObjectName": "NotoSansKR-Regular"
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 16,
+      "ObjectName": "OpenSans-Regular"
+    },
+    {
+      "ObjectIndex": 9,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 17,
+      "ObjectName": "Tajawal-Regular"
+    },
+    {
+      "ObjectIndex": 10,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Engine/EngineFonts/Faces/DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 11,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Acumin_Pro_Condensed_Bold"
+    },
+    {
+      "ObjectIndex": 12,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Acumin_Pro_Condensed_italic"
+    },
+    {
+      "ObjectIndex": 13,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Acumin_Pro_Condensed_Normal"
+    },
+    {
+      "ObjectIndex": 14,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Acumin_Pro_Condensed_Thin"
+    },
+    {
+      "ObjectIndex": 15,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Noto_Sans_KR/NotoSansKR-Regular"
+    },
+    {
+      "ObjectIndex": 16,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular"
+    },
+    {
+      "ObjectIndex": 17,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Tajawal/Tajawal-Regular"
+    },
+    {
+      "ObjectIndex": 18,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 19,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

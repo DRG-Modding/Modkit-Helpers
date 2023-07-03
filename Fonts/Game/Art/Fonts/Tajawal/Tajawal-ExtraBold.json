@@ -1,0 +1,42 @@
+{
+  "AssetClass": "FontFace",
+  "AssetPackage": "/Game/Art/Fonts/Tajawal/Tajawal-ExtraBold",
+  "AssetName": "Tajawal-ExtraBold",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "AssetObjectData": {
+      "SourceFilename": "../../../../FSD/Content/Art/Fonts/Tajawal/Tajawal-ExtraBold.ufont"
+    },
+    "FontPayloadHash": "066a37467c3af47d359507f7c7976071dbe4"
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 2,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 2,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

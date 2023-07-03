@@ -1,0 +1,136 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/FNT_Retro_IBM",
+  "AssetName": "FNT_Retro_IBM",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "Normal",
+              "Font": {
+                "FontFaceAsset": 8,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Fat",
+              "Font": {
+                "FontFaceAsset": 6,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Narrow",
+              "Font": {
+                "FontFaceAsset": 7,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        }
+      },
+      "$ReferencedObjects": [
+        8,
+        6,
+        7
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 4,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 4,
+      "ObjectName": "FontFace"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 4,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 4,
+      "ObjectName": "Default__FontFace"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Export",
+      "ObjectClass": 1,
+      "Outer": 5,
+      "ObjectName": "FNT_Retro_IBM_0_Fat",
+      "ObjectFlags": 0,
+      "Properties": {
+        "SourceFilename": "../../../../FSD/Content/Art/Fonts/FNT_Retro_IBM_0_Fat.ufont",
+        "$ReferencedObjects": []
+      }
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Export",
+      "ObjectClass": 1,
+      "Outer": 5,
+      "ObjectName": "FNT_Retro_IBM_0_Narrow",
+      "ObjectFlags": 0,
+      "Properties": {
+        "SourceFilename": "../../../../FSD/Content/Art/Fonts/FNT_Retro_IBM_0_Narrow.ufont",
+        "$ReferencedObjects": []
+      }
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Export",
+      "ObjectClass": 1,
+      "Outer": 5,
+      "ObjectName": "FNT_Retro_IBM_0_Normal",
+      "ObjectFlags": 0,
+      "Properties": {
+        "SourceFilename": "../../../../FSD/Content/Art/Fonts/FNT_Retro_IBM_0_Normal.ufont",
+        "$ReferencedObjects": []
+      }
+    }
+  ]
+}

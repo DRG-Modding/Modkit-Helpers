@@ -1,0 +1,160 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/RigidSquare_ExtraBold_Font",
+  "AssetName": "RigidSquare_ExtraBold_Font",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [
+      "/Game/Art/Fonts/RigidSquare_ExtraBold",
+      "/Engine/EngineFonts/Faces/DroidSansFallback",
+      "/Game/Art/Fonts/Tajawal/Tajawal-ExtraBold"
+    ],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "Default",
+              "Font": {
+                "FontFaceAsset": 3,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        },
+        "FallbackTypeface": {
+          "Typeface": {
+            "Fonts": [
+              {
+                "Name": "Font",
+                "Font": {
+                  "FontFaceAsset": 2,
+                  "FontFilename": "",
+                  "Hinting": "EFontHinting::Default",
+                  "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                  "SubFaceIndex": 0
+                }
+              }
+            ]
+          }
+        },
+        "SubTypefaces": [
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1536
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1791
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 4,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          }
+        ]
+      },
+      "$ReferencedObjects": [
+        3,
+        2,
+        4
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 8,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 8,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 5,
+      "ObjectName": "DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 6,
+      "ObjectName": "RigidSquare_ExtraBold"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 7,
+      "ObjectName": "Tajawal-ExtraBold"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Engine/EngineFonts/Faces/DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/RigidSquare_ExtraBold"
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Tajawal/Tajawal-ExtraBold"
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 9,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

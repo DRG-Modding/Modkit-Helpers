@@ -1,0 +1,120 @@
+CAS notes:
+- /Script/FSDEngine.StaticMeshCarver may need to be set as simple asset?
+- /Script/FSDEngine.TerrainMaterialCore JSON is not generated
+
+Audio template assets - either need to use git LFS for cooked sound files or dummy them
+
+=========================================
+U37P8 GENERATION
+=========================================
+
+Before generating in editor:
+1. Use umodel command to extract all psk/psa (skeletal mesh/animation sequence) files
+2. Use 3ds max to convert psk/psa to fbx - can semi-automate using batch export script
+3. Copy fbx files into JSON output and serialize skeletal meshes so that they get model hash 
+4. Serialize all assets except cooked, make sure anim sequences are using UncategorizedSerializer
+
+Order to generate in editor:
+1. Textures
+2. Materials
+3. StaticMeshes
+4. Skeletons
+5. SkeletalMeshes
+6. Run rename/make/delete physics assets python script to match list
+7. Regenerate SkeletalMeshes (to fix physics asset references)
+8. Cooked assets
+9. Sound cues (must be in-editor)
+10. Manually import animation sequences
+11. Run the JSON for anim sequences to fix notifies - make sure refresh if OFF
+12. Select every anim sequence right click -> save (so that fixed notifies persist permanently)
+13. Animation Montages
+14. Animation Blueprints
+15. Everything else
+16. Make sure sound classes + sub mixes are connected
+17. Copy in correct fonts
+
+Figure out how to serialize SkeletonRig assets -> do they need to be used for skeletal meshes?
+
+Why do certain vanity headwear assets not have skeleton assigned in them? (e.g. /Game/Characters/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json)
+
+JSON that needs to be edited to add skeleton manually:
+- /Game/Characters/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (need to copy and paste skeleton in editor, then set the skeleton in JSON to that)
+- /Game/Characters/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic02.json (3P_Dwarf_Rig_Skeleton)
+- /Game/Characters/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic03.json (3P_Dwarf_Rig_Skeleton)
+- /Game/Characters/Vanity2/Headwear/SK_Vanity_Headwear_HelmetHardhatRadio.json (3P_Dwarf_Rig_Skeleton)
+
+Figure out why /Game/GameElements/Objectives/Escort/DrillDozer/Animations/ANIM_DrillDozer_Doretta_Riding_Idle.fbx/the looking around ones are being generated with 18 tracks even though JSON says it only has 15
+Solution to fix: add 3 more bone tracks to JSON (so that it goes up to 18)
+
+Need to populate TrackToSkeletonMapTable in AnimSequences so that the length always matches the max number of "BoneTreeIndex" values in the JSON
+Temp solution to fix: add missing tracks in JSON
+
+Figure out why many ABPs with an assigned skeleton crashes editor
+
+Figure out why some float properties within curve vectors are not being serialized correctly
+
+Figure out why some BehaviourTree assets crash on opening but others don't - seems to be tied to whether or not they have a blackboard generated, but sometime not??
+
+=========================================
+U38 GENERATION
+=========================================
+
+Things to check:
+- "/Enemies/HydraWeed/Assets/ANIM_HydraWeed_Heart_Damaged_Additive" fbx has valid ref pose when generating in editor
+
+- Generate these using umodel psa instead of fmodel due to them being empty/name being too long
+    "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_L_OFF.uasset",
+    "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_L_ON.uasset",
+    "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_R_OFF.uasset",
+    "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_R_ON.uasset",
+    "/WeaponsNTools/GatlingGun/Animation/ANIM_Weapon_Gatling_Fire",
+    "/GameElements/Objectives/Facility/Caretaker/Body/SK_Facility_CareTaker_Body_Anim",
+    "/GameElements/Objectives/Facility/DefenseTurret/Assets/ANIM_Force_Field_Turret_Forcefield_Turret_Root_ForceField_Turret_Compressed"
+
+- What is /Script/Engine.Rig? Looks like it could be populated as a simple asset
+
+- "/Script/AnimationSharing.AnimationSharingSetup" is simple asset
+
+- Why are these two anim montages empty?
+    FSD/Content/Enemies/Spider/Animation/ANIM_Spider_Spit_Tank
+    FSD/Content/Enemies/Spider/Animation/ANIM_Spider_TankBoss_Heavy_Fireball
+
+- Blendspace1D cooked can be duplicate uncooked
+- ParticleSystem cooked can be duplicate uncooked - see what happens if you generate JSON over it?
+
+JSON that needs to be edited to add/edit skeleton manually:
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (look up which one it uses in game)
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (look up which one it uses in game)
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic02.json (3P_Dwarf_Rig_Skeleton)
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic03.json (3P_Dwarf_Rig_Skeleton)
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetHardhatRadio.json (3P_Dwarf_Rig_Skeleton)
+- /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01 (look up which one it uses in game)
+
+Failed to merge bones:
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic01
+- /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01
+
+Before generating in editor:
+1. Run fmodel mass export script
+2. Run umodel on 6 missing animations
+3. Use blender script to mass convert actorX to fbx
+
+Order to generate in editor:
+1. Cooked assets
+2. Textures
+3. Materials
+4. StaticMeshes
+5. Skeletons
+6. SkeletalMeshes
+7. Run rename/make/delete physics assets python script to match list
+8. Regenerate SkeletalMeshes (to fix physics asset references)
+9. Sound cues (must be in-editor)
+10. Manually import animation sequences
+11. Run the JSON for anim sequences to fix notifies - make sure refresh if OFF
+12. Select every anim sequence right click -> save (so that fixed notifies persist permanently)
+13. Animation Montages
+14. Animation Blueprints
+15. Everything else
+16. Make sure sound classes + sub mixes are connected
+17. Copy in correct fonts

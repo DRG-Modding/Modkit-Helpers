@@ -1,0 +1,392 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/Rift_Soft",
+  "AssetName": "Rift_Soft",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [
+      "/Game/Art/Fonts/Rift_Soft_Light",
+      "/Game/Art/Fonts/Rift_Soft_Regular",
+      "/Game/Art/Fonts/Rift_Soft_Bold",
+      "/Engine/EngineFonts/Faces/DroidSansFallback",
+      "/Engine/EngineFonts/Faces/RobotoBold",
+      "/Game/Art/Fonts/NanumGothic",
+      "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Bold",
+      "/Game/Art/Fonts/Tajawal/Tajawal-Regular"
+    ],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "Rift Soft Light",
+              "Font": {
+                "FontFaceAsset": 7,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Rift Soft Regular",
+              "Font": {
+                "FontFaceAsset": 8,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "Rift Soft Bold",
+              "Font": {
+                "FontFaceAsset": 6,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        },
+        "FallbackTypeface": {
+          "Typeface": {
+            "Fonts": [
+              {
+                "Name": "Font",
+                "Font": {
+                  "FontFaceAsset": 2,
+                  "FontFilename": "",
+                  "Hinting": "EFontHinting::Default",
+                  "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                  "SubFaceIndex": 0
+                }
+              }
+            ]
+          }
+        },
+        "SubTypefaces": [
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1024
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1279
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 3,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 0.85
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 4352
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 4607
+                }
+              },
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 44032
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 55215
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 4,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                },
+                {
+                  "Name": "Font_0",
+                  "Font": {
+                    "FontFaceAsset": 4,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 12448
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 12543
+                }
+              },
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 12352
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 12447
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 5,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                },
+                {
+                  "Name": "a",
+                  "Font": {
+                    "FontFaceAsset": 5,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1536
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1791
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 9,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          }
+        ]
+      },
+      "$ReferencedObjects": [
+        7,
+        8,
+        6,
+        2,
+        3,
+        4,
+        5,
+        9
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 18,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 18,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 10,
+      "ObjectName": "DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 11,
+      "ObjectName": "RobotoBold"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 12,
+      "ObjectName": "NanumGothic"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 13,
+      "ObjectName": "OpenSans-Bold"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 14,
+      "ObjectName": "Rift_Soft_Bold"
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 15,
+      "ObjectName": "Rift_Soft_Light"
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 16,
+      "ObjectName": "Rift_Soft_Regular"
+    },
+    {
+      "ObjectIndex": 9,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 17,
+      "ObjectName": "Tajawal-Regular"
+    },
+    {
+      "ObjectIndex": 10,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Engine/EngineFonts/Faces/DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 11,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Engine/EngineFonts/Faces/RobotoBold"
+    },
+    {
+      "ObjectIndex": 12,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/NanumGothic"
+    },
+    {
+      "ObjectIndex": 13,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Bold"
+    },
+    {
+      "ObjectIndex": 14,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Rift_Soft_Bold"
+    },
+    {
+      "ObjectIndex": 15,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Rift_Soft_Light"
+    },
+    {
+      "ObjectIndex": 16,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Rift_Soft_Regular"
+    },
+    {
+      "ObjectIndex": 17,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Tajawal/Tajawal-Regular"
+    },
+    {
+      "ObjectIndex": 18,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 19,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}

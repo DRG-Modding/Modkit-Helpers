@@ -1,0 +1,401 @@
+{
+  "AssetClass": "Font",
+  "AssetPackage": "/Game/Art/Fonts/Carbon",
+  "AssetName": "Carbon",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "IsRuntimeFont": true,
+    "ReferencedFontFacePackages": [
+      "/Game/Art/Fonts/Carbon_Regular",
+      "/Game/Art/Fonts/Carbon_Bold",
+      "/Game/Art/Fonts/Carbon_Thin",
+      "/Engine/EngineFonts/Faces/DroidSansFallback",
+      "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular",
+      "/Game/Art/Fonts/Noto_Sans_KR/NotoSansKR-Regular",
+      "/Game/Art/Fonts/NanumGothic",
+      "/Game/Art/Fonts/Tajawal/Tajawal-Regular"
+    ],
+    "AssetObjectData": {
+      "FontCacheType": "EFontCacheType::Runtime",
+      "CompositeFont": {
+        "DefaultTypeface": {
+          "Fonts": [
+            {
+              "Name": "1. Regular",
+              "Font": {
+                "FontFaceAsset": 4,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "2. Bold",
+              "Font": {
+                "FontFaceAsset": 3,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            },
+            {
+              "Name": "5. Condensed",
+              "Font": {
+                "FontFaceAsset": 5,
+                "FontFilename": "",
+                "Hinting": "EFontHinting::Default",
+                "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                "SubFaceIndex": 0
+              }
+            }
+          ]
+        },
+        "FallbackTypeface": {
+          "Typeface": {
+            "Fonts": [
+              {
+                "Name": "Font",
+                "Font": {
+                  "FontFaceAsset": 2,
+                  "FontFilename": "",
+                  "Hinting": "EFontHinting::Default",
+                  "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                  "SubFaceIndex": 0
+                }
+              }
+            ]
+          }
+        },
+        "SubTypefaces": [
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1024
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1279
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 8,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 0.75
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 260
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 380
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 8,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 0.8
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 4352
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 4607
+                }
+              },
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 44032
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 55215
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 7,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                },
+                {
+                  "Name": "Font_0",
+                  "Font": {
+                    "FontFaceAsset": 7,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 0.8
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 8363
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 8363
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 6,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          },
+          {
+            "CharacterRanges": [
+              {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1536
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 1791
+                }
+              }
+            ],
+            "Typeface": {
+              "Fonts": [
+                {
+                  "Name": "Font",
+                  "Font": {
+                    "FontFaceAsset": 9,
+                    "FontFilename": "",
+                    "Hinting": "EFontHinting::Default",
+                    "LoadingPolicy": "EFontLoadingPolicy::LazyLoad",
+                    "SubFaceIndex": 0
+                  }
+                }
+              ]
+            },
+            "ScalingFactor": 1.0
+          }
+        ]
+      },
+      "$ReferencedObjects": [
+        4,
+        3,
+        5,
+        2,
+        8,
+        7,
+        6,
+        9
+      ]
+    }
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 18,
+      "ObjectName": "Font"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 18,
+      "ObjectName": "Default__Font"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 10,
+      "ObjectName": "DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 11,
+      "ObjectName": "Carbon_Bold"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 12,
+      "ObjectName": "Carbon_Regular"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 13,
+      "ObjectName": "Carbon_Thin"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 14,
+      "ObjectName": "NanumGothic"
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 15,
+      "ObjectName": "NotoSansKR-Regular"
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 16,
+      "ObjectName": "OpenSans-Regular"
+    },
+    {
+      "ObjectIndex": 9,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FontFace",
+      "Outer": 17,
+      "ObjectName": "Tajawal-Regular"
+    },
+    {
+      "ObjectIndex": 10,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Engine/EngineFonts/Faces/DroidSansFallback"
+    },
+    {
+      "ObjectIndex": 11,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Carbon_Bold"
+    },
+    {
+      "ObjectIndex": 12,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Carbon_Regular"
+    },
+    {
+      "ObjectIndex": 13,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Carbon_Thin"
+    },
+    {
+      "ObjectIndex": 14,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/NanumGothic"
+    },
+    {
+      "ObjectIndex": 15,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Noto_Sans_KR/NotoSansKR-Regular"
+    },
+    {
+      "ObjectIndex": 16,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular"
+    },
+    {
+      "ObjectIndex": 17,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Tajawal/Tajawal-Regular"
+    },
+    {
+      "ObjectIndex": 18,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 19,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    }
+  ]
+}
