@@ -29,8 +29,11 @@ def main():
             sm_list = asset_types['/Script/Engine.StaticMesh']
             delete_files(sm_list, root, file)
             
-            anim_list = asset_types['/Script/Engine.AnimSequence']
-            delete_files(anim_list, root, file)    
+            anim_list = asset_types['/Script/Engine.AnimSequence'] + asset_types['/Script/Engine.AnimMontage'] + asset_types['/Script/Engine.AnimComposite']
+            delete_files(anim_list, root, file) 
+
+            sk_list = asset_types['/Script/Engine.Skeleton']
+            delete_files(sk_list, root, file)
 
 if __name__ == '__main__':
     main()

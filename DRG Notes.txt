@@ -82,22 +82,23 @@ Things to check:
 - Blendspace1D cooked can be duplicate uncooked
 - ParticleSystem cooked can be duplicate uncooked - see what happens if you generate JSON over it?
 
-JSON that needs to be edited to add/edit skeleton manually:
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (look up which one it uses in game)
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (look up which one it uses in game)
+JSON that needs to be edited to add/edit skeleton manually (or copy from previous project):
+- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (it doesn't use one in-game, so make one for it first)
 - /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic02.json (3P_Dwarf_Rig_Skeleton)
 - /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic03.json (3P_Dwarf_Rig_Skeleton)
 - /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetHardhatRadio.json (3P_Dwarf_Rig_Skeleton)
-- /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01 (look up which one it uses in game)
+- /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01 (SK_Pistol_GrapplingGun_01_Skeleton)
 
-Failed to merge bones:
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic01
-- /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01
+Why exporter not produce fbx for these?
+- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_01.uasset
+- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_02.uasset
+- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_03.uasset
+- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_04.uasset
+- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_05.uasset
 
 Before generating in editor:
 1. Run fmodel mass export script
-2. Run umodel on 6 missing animations
+2. Copy 6 missing animations from previous project
 3. Use blender script to mass convert actorX to fbx
 
 Order to generate in editor:
