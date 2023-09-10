@@ -1,0 +1,1253 @@
+﻿Log file open, 09/08/23 11:47:47
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Warning: Engine version string in F:/DRG Modding/Project Generator/FSDTemplateU38P7/Plugins/Marketplace/Linter/Linter.uplugin could not be parsed ("4.27")
+LogPluginManager: Warning: Engine version string in F:/DRG Modding/Project Generator/FSDTemplateU38P7/Plugins/DSTelemetry/DSTelemetry.uplugin could not be parsed ("4.27")
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin ScriptPlugin
+LogPluginManager: Mounting plugin GameplayInsights
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin TraceSourceFilters
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ControlRig
+LogPluginManager: Mounting plugin FullBodyIK
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemTwitch
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Spatialization
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin TimeSynth
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebBrowserWidget
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SlateInsights
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting plugin Reflex
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamShared
+LogPluginManager: Mounting plugin SteamSockets
+LogPluginManager: Mounting plugin AssetDumper
+LogPluginManager: Mounting plugin AssetGenerator
+LogPluginManager: Mounting plugin DiscordSDK
+LogPluginManager: Mounting plugin DSTelemetry
+LogPluginManager: Mounting plugin FSDTests
+LogPluginManager: Mounting plugin FSDRawInput
+LogPluginManager: Mounting plugin Modio
+LogPluginManager: Mounting plugin GoogleAnalytics
+LogPluginManager: Mounting plugin SimpleUGC
+LogPluginManager: Mounting plugin PS5_Mock
+LogPluginManager: Mounting plugin UnrealPSKPSA
+LogPluginManager: Mounting plugin FSR
+LogPluginManager: Mounting plugin FSR2
+LogPluginManager: Mounting plugin ContentBrowserVisualizer
+LogPluginManager: Mounting plugin SkinEditor
+LogPluginManager: Mounting plugin EditorBase
+LogPluginManager: Mounting plugin Linter
+LogPluginManager: Mounting plugin DLSS
+LogPluginManager: Mounting plugin FSDAnsel
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line:  "F:\DRG Modding\Project Generator\FSDTemplateU38P7\FSD.uproject" -run=AssetGenerator -DumpDirectory="F:\DRG Modding\DRGPacker\JSON\Assets" -AssetClassWhitelist=Texture,Material -abslog="F:\DRG Modding\DRGPacker\JSON\AssetGen\AssetGenerator.log" -stdout -unattended -NoLogTimes
+LogInit: Base Directory: F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+LogConfig: Setting CVar [[r.CustomDepth:3]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[cook.AllowCookedDataInEditorBuilds:1]]
+LogConfig: Setting CVar [[s.AllowUnversionedContentInEditor:1]]
+LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+LogConfig: Setting CVar [[r.ShadowQuality:5]]
+LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+LogConfig: Setting CVar [[r.AOQuality:2]]
+LogConfig: Setting CVar [[r.VolumetricFog:1]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+LogConfig: Setting CVar [[r.BloomQuality:5]]
+LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+LogConfig: Setting CVar [[r.RefractionQuality:2]]
+LogConfig: Setting CVar [[r.SSR.Quality:3]]
+LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+LogConfig: Setting CVar [[r.DetailMode:2]]
+LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+LogConfig: Setting CVar [[r.SSS.Scale:1]]
+LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+LogConfig: Setting CVar [[r.SSS.Quality:1]]
+LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+LogInit: Selected Device Profile: [Windows]
+LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+LogHAL: Display: Platform has ~ 32 GB [34276655104 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogInit: Going up to parent DeviceProfile []
+LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+LogConfig: Setting CVar [[r.ShadowQuality:5]]
+LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+LogConfig: Setting CVar [[r.AOQuality:2]]
+LogConfig: Setting CVar [[r.VolumetricFog:1]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+LogConfig: Setting CVar [[r.BloomQuality:5]]
+LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+LogConfig: Setting CVar [[r.RefractionQuality:2]]
+LogConfig: Setting CVar [[r.SSR.Quality:3]]
+LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+LogConfig: Setting CVar [[r.DetailMode:2]]
+LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+LogConfig: Setting CVar [[r.SSS.Scale:1]]
+LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+LogConfig: Setting CVar [[r.SSS.Quality:1]]
+LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Config/Windows/Editor.ini]
+LogInit: Computer: DESKTOP-LHAO25H
+LogInit: User: Bobby
+LogInit: CPU Page size=4096, Cores=8
+LogInit: High frequency timer resolution =10.000000 MHz
+LogMemory: Memory total: Physical=31.9GB (32GB approx)
+LogMemory: Platform Memory Stats for Windows
+LogMemory: Process Physical Memory: 141.43 MB used, 141.44 MB peak
+LogMemory: Process Virtual Memory: 128.72 MB used, 128.72 MB peak
+LogMemory: Physical Memory: 22693.95 MB used,  9994.82 MB free, 32688.77 MB total
+LogMemory: Virtual Memory: 134205928.00 MB used,  11801.89 MB free, 134217728.00 MB total
+LogWindows: WindowsPlatformFeatures enabled
+LogInit: Physics initialised using underlying interface: PhysX
+LogInit: Overriding language with engine language configuration option (en).
+LogInit: Overriding language with engine locale configuration option (en).
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../DRG Modding/Project Generator/FSDTemplateU38P7/Intermediate/Shaders/WorkingDirectory/83796/).
+LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bobby/AppData/Local/Temp/UnrealShaderWorkingDir/DD4CF44F41460F833A0201ACE5B73B15/'.
+LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+LogShaderCompilers: Display: Using Local Shader Compiler.
+LogDerivedDataCache: Display: Max Cache Size: 512 MB
+LogDerivedDataCache: Loaded boot cache 0.04s 61MB C:/Users/Bobby/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bobby/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../DRG Modding/Project Generator/FSDTemplateU38P7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../DRG Modding/Project Generator/FSDTemplateU38P7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Speed tests for C:/Users/Bobby/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+LogDerivedDataCache: Display: Performance to C:/Users/Bobby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=788.14MBs, RandomWriteSpeed=78.93MBs. Assigned SpeedClass 'Local'
+LogDerivedDataCache: Using Local data cache path C:/Users/Bobby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+LogInit: Selected Device Profile: [Windows]
+LogInit: Active device profile: [000002B38520ED00][000002B38116A700 49] Windows
+LogInit: Profiles: [000002B38520ED00][000002B38116A700 49] Windows, [000002B3851AEE00][000002B38135C880 49] WindowsNoEditor, [000002B38520F600][000002B381176A00 49] WindowsServer, [000002B3851ACB00][000002B3FF7F2B80 49] WindowsClient, [000002B38520CB00][000002B3FF7F6D00 49] IOS, [000002B3851AF800][000002B3FF7FAE80 49] iPadAir, [000002B38520FC00][000002B3FF7FF000 49] iPadAir2, [000002B38516E700][000002B3FF80D2C0 49] IPadPro, [000002B38516E800][000002B3FF803300 49] iPadAir3, [000002B38520C400][000002B381369440 49] iPadAir4, [000002B38516F600][000002B3FF817580 49] iPadMini2, [000002B38520C100][000002B3FF81B6C0 49] iPadMini3, [000002B38516D200][000002B3FF81F800 49] iPadMini4, [000002B38520DA00][000002B3FF827980 49] iPadMini5, [000002B38517E000][000002B3FF82E0C0 49] iPhone6, [000002B38517E100][000002B3FF82A100 49] iPodTouch6, [000002B38516CF00][000002B3FF8363C0 49] iPhone7, [000002B38516CD00][000002B3FF832400 49] iPodTouch7, [000002B38517EE00][000002B3FF83A580 49] iPhone5S, [000002B38516C800][000002B3FF83E700 49] iPhone6Plus, [000002B38517CB00][000002B3FF842880 49] iPhone6S, [000002B38516D600][000002B3FF846A00 49] iPhone6SPlus, [000002B38517D200][000002B3FF84AB80 49] iPhone7Plus, [000002B38516D800][000002B3FF84ED00 49] iPhoneSE, [000002B38517F400][000002B3FF852E80 49] iPhone8, [000002B38516C500][000002B3FF857000 49] iPhone8Plus, [000002B38517F600][000002B3FF85B180 49] iPhoneX, [000002B38516C400][000002B3FF85F300 49] iPhoneXS, [000002B38517F300][000002B3FF863480 49] iPhoneXSMax, [000002B38516CA00][000002B3FF8235C0 49] iPhoneXR, [000002B38517E300][000002B3FF867700 49] iPhone11, [000002B38516ED00][000002B3FF86B840 49] iPhone11Pro, [000002B38517DC00][000002B384E9B980 49] iPhone11ProMax, [000002B38516CE00][000002B384EA3B00 49] iPhoneSE2, [000002B38517EA00][000002B384EA6100 49] iPhone12Mini, [000002B38516E900][000002B384EAA280 49] iPhone12, [000002B38517FF00][000002B384EAE400 49] iPhone12Pro, [000002B38516FB00][000002B384EB2580 49] iPhone12ProMax, [000002B38517D900][000002B384EB6700 49] iPadPro105, [000002B38516FD00][000002B384EBA880 49] iPadPro129, [000002B38517DB00][000002B384EBEA00 49] iPadPro97, [000002B38516EC00][000002B384EC2B80 49] iPadPro2_129, [000002B38517CE00][000002B384EC6D00 49] iPad5, [000002B38516F700][000002B384ECAE80 49] iPad6, [000002B38517F000][000002B384ECF000 49] iPad7, [000002B38516C100][000002B384ED3180 49] iPad8, [000002B38517EC00][000002B384ED7300 49] iPadPro11, [000002B38516FC00][000002B384EDB480 49] iPadPro2_11, [000002B3851AC100][000002B384EDF600 49] iPadPro3_129, [000002B38528E000][000002B384EE3780 49] iPadPro4_129, [000002B3851AEA00][000002B384E9F8C0 49] AppleTV, [000002B38528CA00][000002B384EE7A00 49] AppleTV4K, [000002B3851AC700][000002B384EEBB40 49] TVOS, [000002B38528D300][000002B384EF2140 49] Mac, [000002B3851AEB00][000002B384EF62C0 49] MacClient, [000002B38528E600][000002B384EFA440 49] MacNoEditor, [000002B3851AED00][000002B384EFE5C0 49] MacServer, [000002B38528D800][000002B384F02740 49] Linux, [000002B3851ADF00][000002B384F068C0 49] LinuxAArch64, [000002B38528D600][000002B384F0AA40 49] LinuxNoEditor, [000002B3851ACC00][000002B384F0EBC0 49] LinuxAArch64NoEditor, [000002B38528D500][000002B384F12D40 49] LinuxClient, [000002B3851AF900][000002B384F16EC0 49] LinuxAArch64Client, [000002B38528CB00][000002B384F1B040 49] LinuxServer, [000002B3851AEF00][000002B384F1F1C0 49] LinuxAArch64Server, [000002B38528DC00][000002B384F23340 49] Android, [000002B38516D100][000002B384F274C0 49] Android_Low, [000002B38517C200][000002B384F2B640 49] Android_Mid, [000002B38516EE00][000002B384F2F7C0 49] Android_High, [000002B38517E400][000002B384F33940 49] Android_Default, [000002B38516E500][000002B384EEFA80 49] Android_Adreno4xx, [000002B38517C900][000002B384F37BC0 49] Android_Adreno5xx_Low, [000002B38516FA00][000002B384F3A180 49] Android_Adreno5xx, [000002B38517F500][000002B384F3E2C0 49] Android_Adreno6xx, [000002B38516C200][000002B384F46440 49] Android_Adreno6xx_Vulkan, [000002B38517E800][000002B384F4A5C0 49] Android_Mali_T6xx, [000002B38516D300][000002B384F4E740 49] Android_Mali_T7xx, [000002B38528CC00][000002B384F528C0 49] Android_Mali_T8xx, [000002B38516D900][000002B384F56A40 49] Android_Mali_G71, [000002B38528D900][000002B384F5ABC0 49] Android_Mali_G72, [000002B38516DB00][000002B384F5ED40 49] Android_Mali_G72_Vulkan, [000002B38528DD00][000002B384F62EC0 49] Android_Mali_G76, [000002B38516FF00][000002B384F67040 49] Android_Mali_G76_Vulkan, [000002B38528D400][000002B384F6B1C0 49] Android_Mali_G77, [000002B38516F800][000002B384F6F340 49] Android_Mali_G77_Vulkan, [000002B38528C200][000002B384F734C0 49] Android_Mali_G78, [000002B38516F100][000002B384F77640 49] Android_Mali_G78_Vulkan, [000002B38517F700][000002B384F7B7C0 49] Android_Mali_G710, [000002B38516CB00][000002B384F7F940 49] Android_Mali_G710_Vulkan, [000002B38517D100][000002B384F83AC0 49] Android_Vulkan_SM5, [000002B38516E600][000002B384F43C00 49] Android_PowerVR_G6xxx, [000002B38517F200][000002B384F861C0 49] Android_PowerVR_GT7xxx, [000002B38516DD00][000002B384F8A300 49] Android_PowerVR_GE8xxx, [000002B38517C600][000002B384F8E440 49] Android_PowerVR_GM9xxx, [000002B38516E000][000002B384F965C0 49] Android_PowerVR_GM9xxx_Vulkan, [000002B38517E900][000002B384F9A740 49] Android_TegraK1, [000002B38516F200][000002B384F9E8C0 49] Android_Unknown_Vulkan, [000002B38517FC00][000002B384FA2A40 49] Lumin, [000002B38516C300][000002B384FA6BC0 49] Lumin_Desktop, [000002B38517D500][000002B384FAAD40 49] HoloLens, 
+LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: No distributed automatic mesh merging module available
+LogMeshMerging: No distributed automatic mesh merging module available
+LogNetVersion: FSD 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2224839243)
+LogHMD: PokeAHoleMaterial loaded successfully
+LogCollectionManager: Loaded 0 collections in 0.001160 seconds
+LogFileCache: Scanning file cache for directory 'F:/DRG Modding/Project Generator/FSDTemplateU38P7/Saved/Collections/' took 0.00s
+LogFileCache: Scanning file cache for directory 'F:/DRG Modding/Project Generator/FSDTemplateU38P7/Content/Developers/Bobby/Collections/' took 0.00s
+LogFileCache: Scanning file cache for directory 'F:/DRG Modding/Project Generator/FSDTemplateU38P7/Content/Collections/' took 0.00s
+LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 5A74299C4B80089BB1D1738F710471A4 | Instance: 4786ADF94281035F7A5225B03AAB13FE (DESKTOP-LHAO25H-83796).
+LogPython: Using Python 3.7.7
+LogSteamShared: Display: Loading Steam SDK 1.51
+LogSteamShared: Steam SDK Loaded!
+LogPython: Warning: 'AssaultRifleUpgrade' and 'EAssaultRifleUpgrade' have the same name (AssaultRifleUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'BasicPistol' and 'EBasicPistol' have the same name (BasicPistol) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'BeltDrivenWeaponUpgrade' and 'EBeltDrivenWeaponUpgrade' have the same name (BeltDrivenWeaponUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'DamageType' and 'EDamageType' have the same name (DamageType) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'DamageUpgrade' and 'EDamageUpgrade' have the same name (DamageUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'EnemyFamily' and 'EEnemyFamily' have the same name (EnemyFamily) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'GatlingGunUpgrade' and 'EGatlingGunUpgrade' have the same name (GatlingGunUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'GrapplingHookUpgrade' and 'EGrapplingHookUpgrade' have the same name (GrapplingHookUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'HeavyParticleCannonUpgrade' and 'EHeavyParticleCannonUpgrade' have the same name (HeavyParticleCannonUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'PickaxePart' and 'EPickaxePart' have the same name (PickaxePart) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'ProjectileUpgrade' and 'EProjectileUpgrade' have the same name (ProjectileUpgrade) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'SpawnSettings' and 'ESpawnSettings' have the same name (SpawnSettings) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'InputTranslation.bControllerOverride' and 'InputTranslation.ControllerOverride' have the same name (controller_override) when exposed to Python. Rename one of them using 'ScriptName' meta-data (or 'ScriptMethod' or 'ScriptConstant' for extension functions).
+LogPython: Warning: 'ESchematicType' and 'SchematicType' have the same name (SchematicType) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+LogPython: Warning: 'ETerminatorShoutState' and 'TerminatorShoutState' have the same name (TerminatorShoutState) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+TimingProfiler: Initialize
+TimingProfiler: OnSessionChanged
+LoadingProfiler: Initialize
+LoadingProfiler: OnSessionChanged
+NetworkingProfiler: Initialize
+NetworkingProfiler: OnSessionChanged
+MemoryProfiler: Initialize
+MemoryProfiler: OnSessionChanged
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+LogUProjectInfo: Found projects:
+LogOpenImageDenoise: OIDN starting up
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogOcInput: OculusInput pre-init called
+LogOnline: OSS: Creating online subsystem instance for: STEAM
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module STEAM
+LogSockets: SteamSockets: Disabled due to no Steam OSS running.
+LogAssetDumper: Starting up asset dumper plugin
+LogUObjectArray: 36235 objects as part of root set at end of initial load.
+LogUObjectAllocator: 11908064 out of 0 bytes used by permanent object pool.
+LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+LogInit: Executing Class /Script/AssetGenerator.AssetGeneratorCommandlet
+LogInit: Initializing Editor Engine...
+LogEngine: Initializing Engine...
+LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+LogInit: Initializing FReadOnlyCVARCache
+LogAIModule: Creating AISystem for world Untitled
+LogNetVersion: Set ProjectVersion to 1.38.88240.0. Version Checksum will be recalculated on next use.
+LogDerivedDataCache: Saved boot cache 0.04s 61MB C:/Users/Bobby/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+LogInit: Texture streaming: Disabled
+LogInit: Initializing Editor Engine Completed
+BlueprintLog: New page: Editor Load
+LogClass: Warning: StructProperty FBakeEntry::AABB is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/BakeEntry.h
+LogClass: Warning: StructProperty FBakeSetting::VectorValue is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/BakeSetting.h
+LogClass: Warning: StructProperty FCarveSplineSegment::SplineStart is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogClass: Warning: StructProperty FCarveSplineSegment::SplineStartTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogClass: Warning: StructProperty FCarveSplineSegment::SplineEnd is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogClass: Warning: StructProperty FCarveSplineSegment::SplineEndTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogClass: Warning: StructProperty FCSGGridDuplicatorProperties::DirectionA is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGGridDuplicatorProperties.h
+LogClass: Warning: StructProperty FCSGGridDuplicatorProperties::DirectionB is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGGridDuplicatorProperties.h
+LogClass: Warning: StructProperty FCSGRandomizeTransformProperties::Translation is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGRandomizeTransformProperties.h
+LogClass: Warning: StructProperty FCSGRandomizeTransformProperties::ScaleMin is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGRandomizeTransformProperties.h
+LogClass: Warning: StructProperty FCSGRandomizeTransformProperties::ScaleMax is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGRandomizeTransformProperties.h
+LogClass: Warning: StructProperty FMeshBoxProperties::HalfSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/MeshBoxProperties.h
+LogClass: Warning: StructProperty FMeshCellNoiseProperties::CellSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/MeshCellNoiseProperties.h
+LogClass: Warning: StructProperty FMeshLayerProperties::BoundingBox is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/MeshLayerProperties.h
+LogClass: Warning: StructProperty FSDFBoxProperties::HalfSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFBoxProperties.h
+LogClass: Warning: StructProperty FSDFHeightMaproperties::Scale is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFHeightMaproperties.h
+LogClass: Warning: StructProperty FSDFRandomizeTransformProperties::Translation is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFRandomizeTransformProperties.h
+LogClass: Warning: StructProperty FSDFRandomizeTransformProperties::ScaleMin is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFRandomizeTransformProperties.h
+LogClass: Warning: StructProperty FSDFRandomizeTransformProperties::ScaleMax is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFRandomizeTransformProperties.h
+LogClass: Warning: StructProperty FSplineWarpProperties::ElementBox is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SplineWarpProperties.h
+LogClass: Warning: StructProperty FVoronoiProperties::HalfSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/VoronoiProperties.h
+LogClass: Warning: StructProperty FDamageDataBase::HitLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DamageDataBase.h
+LogClass: Warning: StructProperty FCoolDownProgressStyle::IconTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CoolDownProgressStyle.h
+LogClass: Warning: StructProperty FDisplayContent::PivotOffset is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DisplayContent.h
+LogClass: Warning: StructProperty FDisplayContent::RotationOffset is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DisplayContent.h
+LogClass: Warning: StructProperty FDisplayContent::Scale is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DisplayContent.h
+LogClass: Warning: StructProperty FSeasonSaveEntry::LastNewChallengeGiven is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SeasonSaveEntry.h
+LogClass: Warning: StructProperty FSeasonSaveEntry::LastChallengeReroll is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SeasonSaveEntry.h
+LogClass: Warning: StructProperty FHeroInfo::HeroColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/HeroInfo.h
+LogClass: Warning: StructProperty FEnhancedTrace::Origin is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EnhancedTrace.h
+LogClass: Warning: StructProperty FEnhancedTrace::Direction is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EnhancedTrace.h
+LogClass: Warning: StructProperty FEnhancedTrace::HitPoint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EnhancedTrace.h
+LogClass: Warning: StructProperty FCameraSpringSettings::SpringExtend is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CameraSpringSettings.h
+LogClass: Warning: StructProperty FCameraSpringSettings::LastLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CameraSpringSettings.h
+LogClass: Warning: StructProperty FCameraSpringSettings::StartSpringLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CameraSpringSettings.h
+LogClass: Warning: StructProperty FAnalogAimSettings::AimRate is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/AnalogAimSettings.h
+LogClass: Warning: StructProperty FAnalogAimSettings::ThirdPersonLookRate is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/AnalogAimSettings.h
+LogClass: Warning: StructProperty FObjectiveMissionIcon::Tint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ObjectiveMissionIcon.h
+LogClass: Warning: StructProperty FDrinkableBarSlot::WorldLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrinkableBarSlot.h
+LogClass: Warning: StructProperty FAttachMeshesAfflictionItem::Offset is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/AttachMeshesAfflictionItem.h
+LogClass: Warning: StructProperty FBeamCollision::FinalTraceStart is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BeamCollision.h
+LogClass: Warning: StructProperty FBeamCollision::FinalTraceEnd is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BeamCollision.h
+LogClass: Warning: StructProperty FBoomerangMover::StartRotation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogClass: Warning: StructProperty FBoomerangMover::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogClass: Warning: StructProperty FBoomerangMover::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogClass: Warning: StructProperty FBoomerangMover::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogClass: Warning: StructProperty FBoomerangSyncer::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangSyncer.h
+LogClass: Warning: StructProperty FBoomerangSyncer::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangSyncer.h
+LogClass: Warning: StructProperty FBoomerangSyncer::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangSyncer.h
+LogClass: Warning: StructProperty FBoscoAbilityTarget::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoscoAbilityTarget.h
+LogClass: Warning: StructProperty FBoscoLightSetting::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoscoLightSetting.h
+LogClass: Warning: StructProperty FCaveInfluence::Center is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CaveInfluence.h
+LogClass: Warning: StructProperty FCellNoise::CellSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CellNoise.h
+LogClass: Warning: StructProperty FChallengeInfo::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ChallengeInfo.h
+LogClass: Warning: StructProperty FCommunityRewardNotification::IconColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CommunityRewardNotification.h
+LogClass: Warning: StructProperty FControlEnemyState::InitialCharacterVelocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ControlEnemyState.h
+LogClass: Warning: StructProperty FControlEnemyState::InitialEnemyVelocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ControlEnemyState.h
+LogClass: Warning: StructProperty FCSGRaycastHitInfo::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CSGRaycastHitInfo.h
+LogClass: Warning: StructProperty FCSGRaycastHitInfo::Normal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CSGRaycastHitInfo.h
+LogClass: Warning: StructProperty FCurve2DAppearance::Tint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/Curve2DAppearance.h
+LogClass: Warning: StructProperty FCurve2DAppearance::OutlineTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/Curve2DAppearance.h
+LogClass: Warning: StructProperty FDailyDealSetup::UnitsRange is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DailyDealSetup.h
+LogClass: Warning: StructProperty FDailyDealSetup::DiscountRangePercent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DailyDealSetup.h
+LogClass: Warning: StructProperty FDailyDealSetup::ExtraValueRangePercent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DailyDealSetup.h
+LogClass: Warning: StructProperty FSoftIconWithColor::Tint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SoftIconWithColor.h
+LogClass: Warning: StructProperty FDebrisCapsule::Start is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DebrisCapsule.h
+LogClass: Warning: StructProperty FDebrisCapsule::End is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DebrisCapsule.h
+LogClass: Warning: StructProperty FDeepRepPath::PathBase is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DeepRepPath.h
+LogClass: Warning: StructProperty FDeepRepPath::PathOffsets is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DeepRepPath.h
+LogClass: Warning: StructProperty FDiscordRewardNotification::IconColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DiscordRewardNotification.h
+LogClass: Warning: StructProperty FDrillOperationData::HitPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrillOperationData.h
+LogClass: Warning: StructProperty FDrillOperationData::Dir is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrillOperationData.h
+LogClass: Warning: StructProperty FDrillOperationData::CarveSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrillOperationData.h
+LogClass: Warning: StructProperty FDroneLightSetting::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DroneLightSetting.h
+LogClass: Warning: StructProperty FDropInfo::From is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DropInfo.h
+LogClass: Warning: StructProperty FDropInfo::To is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DropInfo.h
+LogClass: Warning: StructProperty FEscortMuleMovementState::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EscortMuleMovementState.h
+LogClass: Warning: StructProperty FEscortMuleMovementState::AngularVelocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EscortMuleMovementState.h
+LogClass: Warning: StructProperty FFakeMoverState::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogClass: Warning: StructProperty FFakeMoverState::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogClass: Warning: StructProperty FFakeMoverState::PrevSurfaceNormal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogClass: Warning: StructProperty FFakeMoverState::NextSurfaceNormal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogClass: Warning: StructProperty FFakeMoverState::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogClass: Warning: StructProperty FFakeMoveState::Pos1 is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoveState.h
+LogClass: Warning: StructProperty FFakeMoveState::Pos2 is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoveState.h
+LogClass: Warning: StructProperty FFakeMoveState::Vel is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoveState.h
+LogClass: Warning: StructProperty FFakeSawMover::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogClass: Warning: StructProperty FFakeSawMover::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogClass: Warning: StructProperty FFakeSawMover::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogClass: Warning: StructProperty FFakeSawMover::Plane is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogClass: Warning: StructProperty FFlareMeta::Pos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FlareMeta.h
+LogClass: Warning: StructProperty FFormationDataItem::Direction is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FormationDataItem.h
+LogClass: Warning: StructProperty FRoomItem::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomItem.h
+LogClass: Warning: StructProperty FRoomEntrance::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomEntrance.h
+LogClass: Warning: StructProperty FRoomEntrance::Direction is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomEntrance.h
+LogClass: Warning: StructProperty FResourceLocation::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ResourceLocation.h
+LogClass: Warning: StructProperty FRoomBox::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomBox.h
+LogClass: Warning: StructProperty FRoomBox::Extends is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomBox.h
+LogClass: Warning: StructProperty FWeightedLinePoint::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/WeightedLinePoint.h
+LogClass: Warning: StructProperty FRoomLinePoint::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomLinePoint.h
+LogClass: Warning: StructProperty FGenerateIconInfo::Size is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GenerateIconInfo.h
+LogClass: Warning: StructProperty FGliderAnimSync::VelocityPercent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GliderAnimSync.h
+LogClass: Warning: StructProperty FGrenadeExplodeOperationData::HitPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GrenadeExplodeOperationData.h
+LogClass: Warning: StructProperty FGrenadeExplodeOperationData::Normal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GrenadeExplodeOperationData.h
+LogClass: Warning: StructProperty FHealthBarLooks::HealthColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/HealthBarLooks.h
+LogClass: Warning: StructProperty FHealthBarLooks::DamageColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/HealthBarLooks.h
+LogClass: Warning: StructProperty FInputDisplay::TextTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/InputDisplay.h
+LogClass: Warning: StructProperty FJettyBootsReplay::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/JettyBootsReplay.h
+LogClass: Warning: StructProperty FLaserPointerData::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/LaserPointerData.h
+LogClass: Warning: StructProperty FLineSegmentCarverPoint::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/LineSegmentCarverPoint.h
+LogClass: Warning: StructProperty FLineSegmentFillerPoint::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/LineSegmentFillerPoint.h
+LogClass: Warning: StructProperty FPathObstacle::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PathObstacle.h
+LogClass: Warning: StructProperty FPickaxeDigOperationData::HitPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PickaxeDigOperationData.h
+LogClass: Warning: StructProperty FPickaxeDigOperationData::Dir is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PickaxeDigOperationData.h
+LogClass: Warning: StructProperty FPlacementObstruction::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PlacementObstruction.h
+LogClass: Warning: StructProperty FPlayerSphere::Center is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PlayerSphere.h
+LogClass: Warning: StructProperty FRandLinePoint::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RandLinePoint.h
+LogClass: Warning: StructProperty FRecoilImpulse::Impulse is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RecoilImpulse.h
+LogClass: Warning: StructProperty FScanPath::Start is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ScanPath.h
+LogClass: Warning: StructProperty FScanPath::End is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ScanPath.h
+LogClass: Warning: StructProperty FRoomGeneratorItem::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomGeneratorItem.h
+LogClass: Warning: StructProperty FRoomNode::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomNode.h
+LogClass: Warning: StructProperty FSchematicType::IconTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SchematicType.h
+LogClass: Warning: StructProperty FSchematicType::FrameTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SchematicType.h
+LogClass: Warning: StructProperty FSpaceRigNotification::IconColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SpaceRigNotification.h
+LogClass: Warning: StructProperty FSpawnEffectItem::Rotation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SpawnEffectItem.h
+LogClass: Warning: StructProperty FSplineHitResult::SplineTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineHitResult.h
+LogClass: Warning: StructProperty FSplineSegment::StartLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogClass: Warning: StructProperty FSplineSegment::StartTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogClass: Warning: StructProperty FSplineSegment::EndLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogClass: Warning: StructProperty FSplineSegment::EndTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogClass: Warning: StructProperty FTentacleTarget::Rotation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TentacleTarget.h
+LogClass: Warning: StructProperty FTerrainSpawnDebrisOperationData::Pos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TerrainSpawnDebrisOperationData.h
+LogClass: Warning: StructProperty FTerrainPlacementBox::Min is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TerrainPlacementBox.h
+LogClass: Warning: StructProperty FTerrainPlacementBox::Max is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TerrainPlacementBox.h
+LogClass: Warning: StructProperty FTunnelNode::DirtStartLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TunnelNode.h
+LogClass: Warning: StructProperty FVanityNode::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/VanityNode.h
+LogClass: Warning: StructProperty FZipLine::Start is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ZipLine.h
+LogClass: Warning: StructProperty FZipLine::End is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ZipLine.h
+LogClass: Display: StructProperty FModioModInfo::ProfileDateAdded is not initialized properly. Module:Modio File:Public/Types/ModioModInfo.h
+LogClass: Display: StructProperty FModioModInfo::ProfileDateUpdated is not initialized properly. Module:Modio File:Public/Types/ModioModInfo.h
+LogClass: Display: StructProperty FModioModInfo::ProfileDateLive is not initialized properly. Module:Modio File:Public/Types/ModioModInfo.h
+LogClass: Display: EnumProperty FModioModInfo::ProfileMaturityOption is not initialized properly. Module:Modio File:Public/Types/ModioModInfo.h
+LogClass: Display: IntProperty FModioModInfo::NumGalleryImages is not initialized properly. Module:Modio File:Public/Types/ModioModInfo.h
+LogClass: Display: Int64Property FModioModStats::PopularityRankPosition is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::PopularityRankTotalMods is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::DownloadsTotal is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::SubscribersTotal is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::RatingTotal is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::RatingPositive is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::RatingNegative is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: Int64Property FModioModStats::RatingPercentagePositive is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: FloatProperty FModioModStats::RatingWeightedAggregate is not initialized properly. Module:Modio File:Public/Types/ModioModStats.h
+LogClass: Display: StructProperty FModioFileMetadata::DateAdded is not initialized properly. Module:Modio File:Public/Types/ModioFileMetadata.h
+LogClass: Display: EnumProperty FModioFileMetadata::CurrentVirusScanStatus is not initialized properly. Module:Modio File:Public/Types/ModioFileMetadata.h
+LogClass: Display: EnumProperty FModioFileMetadata::CurrentVirusStatus is not initialized properly. Module:Modio File:Public/Types/ModioFileMetadata.h
+LogClass: Display: Int64Property FModioFileMetadata::Filesize is not initialized properly. Module:Modio File:Public/Types/ModioFileMetadata.h
+LogClass: Display: StructProperty FModioUser::DateOnline is not initialized properly. Module:Modio File:Public/Types/ModioUser.h
+LogClass: Display: IntProperty FModioPagedResult::PageIndex is not initialized properly. Module:Modio File:Public/Types/ModioPagedResult.h
+LogClass: Display: IntProperty FModioPagedResult::PageSize is not initialized properly. Module:Modio File:Public/Types/ModioPagedResult.h
+LogClass: Display: IntProperty FModioPagedResult::PageCount is not initialized properly. Module:Modio File:Public/Types/ModioPagedResult.h
+LogClass: Display: IntProperty FModioPagedResult::TotalResultCount is not initialized properly. Module:Modio File:Public/Types/ModioPagedResult.h
+LogClass: Display: IntProperty FModioPagedResult::ResultCount is not initialized properly. Module:Modio File:Public/Types/ModioPagedResult.h
+LogClass: Display: BoolProperty FModioModTagInfo::bAllowMultipleSelection is not initialized properly. Module:Modio File:Public/Types/ModioModTagInfo.h
+LogClass: Display: EnumProperty FModioModManagementEvent::Event is not initialized properly. Module:Modio File:Public/Types/ModioModManagementEvent.h
+LogClass: Display: Int64Property FModioModProgressInfo::TotalDownloadSize is not initialized properly. Module:Modio File:Public/Types/ModioModProgressInfo.h
+LogClass: Display: Int64Property FModioModProgressInfo::CurrentlyDownloadedBytes is not initialized properly. Module:Modio File:Public/Types/ModioModProgressInfo.h
+LogClass: Display: Int64Property FModioModProgressInfo::TotalExtractedSizeOnDisk is not initialized properly. Module:Modio File:Public/Types/ModioModProgressInfo.h
+LogClass: Display: Int64Property FModioModProgressInfo::CurrentlyExtractedBytes is not initialized properly. Module:Modio File:Public/Types/ModioModProgressInfo.h
+LogClass: Display: BoolProperty FModioLink::bRequired is not initialized properly. Module:Modio File:Public/Types/ModioTerms.h
+LogClass: Display: 170 Uninitialized script struct members found including 0 object properties
+LogAutomationTest: Warning: StructProperty FBakeEntry::AABB is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/BakeEntry.h
+LogAutomationTest: Warning: StructProperty FBakeSetting::VectorValue is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/BakeSetting.h
+LogAutomationTest: Warning: StructProperty FCarveSplineSegment::SplineStart is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogAutomationTest: Warning: StructProperty FCarveSplineSegment::SplineStartTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogAutomationTest: Warning: StructProperty FCarveSplineSegment::SplineEnd is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogAutomationTest: Warning: StructProperty FCarveSplineSegment::SplineEndTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CarveSplineSegment.h
+LogAutomationTest: Warning: StructProperty FCSGGridDuplicatorProperties::DirectionA is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGGridDuplicatorProperties.h
+LogAutomationTest: Warning: StructProperty FCSGGridDuplicatorProperties::DirectionB is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGGridDuplicatorProperties.h
+LogAutomationTest: Warning: StructProperty FCSGRandomizeTransformProperties::Translation is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGRandomizeTransformProperties.h
+LogAutomationTest: Warning: StructProperty FCSGRandomizeTransformProperties::ScaleMin is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGRandomizeTransformProperties.h
+LogAutomationTest: Warning: StructProperty FCSGRandomizeTransformProperties::ScaleMax is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/CSGRandomizeTransformProperties.h
+LogAutomationTest: Warning: StructProperty FMeshBoxProperties::HalfSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/MeshBoxProperties.h
+LogAutomationTest: Warning: StructProperty FMeshCellNoiseProperties::CellSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/MeshCellNoiseProperties.h
+LogAutomationTest: Warning: StructProperty FMeshLayerProperties::BoundingBox is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/MeshLayerProperties.h
+LogAutomationTest: Warning: StructProperty FSDFBoxProperties::HalfSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFBoxProperties.h
+LogAutomationTest: Warning: StructProperty FSDFHeightMaproperties::Scale is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFHeightMaproperties.h
+LogAutomationTest: Warning: StructProperty FSDFRandomizeTransformProperties::Translation is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFRandomizeTransformProperties.h
+LogAutomationTest: Warning: StructProperty FSDFRandomizeTransformProperties::ScaleMin is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFRandomizeTransformProperties.h
+LogAutomationTest: Warning: StructProperty FSDFRandomizeTransformProperties::ScaleMax is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SDFRandomizeTransformProperties.h
+LogAutomationTest: Warning: StructProperty FSplineWarpProperties::ElementBox is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/SplineWarpProperties.h
+LogAutomationTest: Warning: StructProperty FVoronoiProperties::HalfSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSDEngine File:Public/VoronoiProperties.h
+LogAutomationTest: Warning: StructProperty FDamageDataBase::HitLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DamageDataBase.h
+LogAutomationTest: Warning: StructProperty FCoolDownProgressStyle::IconTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CoolDownProgressStyle.h
+LogAutomationTest: Warning: StructProperty FDisplayContent::PivotOffset is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DisplayContent.h
+LogAutomationTest: Warning: StructProperty FDisplayContent::RotationOffset is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DisplayContent.h
+LogAutomationTest: Warning: StructProperty FDisplayContent::Scale is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DisplayContent.h
+LogAutomationTest: Warning: StructProperty FSeasonSaveEntry::LastNewChallengeGiven is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SeasonSaveEntry.h
+LogAutomationTest: Warning: StructProperty FSeasonSaveEntry::LastChallengeReroll is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SeasonSaveEntry.h
+LogAutomationTest: Warning: StructProperty FHeroInfo::HeroColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/HeroInfo.h
+LogAutomationTest: Warning: StructProperty FEnhancedTrace::Origin is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EnhancedTrace.h
+LogAutomationTest: Warning: StructProperty FEnhancedTrace::Direction is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EnhancedTrace.h
+LogAutomationTest: Warning: StructProperty FEnhancedTrace::HitPoint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EnhancedTrace.h
+LogAutomationTest: Warning: StructProperty FCameraSpringSettings::SpringExtend is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CameraSpringSettings.h
+LogAutomationTest: Warning: StructProperty FCameraSpringSettings::LastLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CameraSpringSettings.h
+LogAutomationTest: Warning: StructProperty FCameraSpringSettings::StartSpringLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CameraSpringSettings.h
+LogAutomationTest: Warning: StructProperty FAnalogAimSettings::AimRate is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/AnalogAimSettings.h
+LogAutomationTest: Warning: StructProperty FAnalogAimSettings::ThirdPersonLookRate is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/AnalogAimSettings.h
+LogAutomationTest: Warning: StructProperty FObjectiveMissionIcon::Tint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ObjectiveMissionIcon.h
+LogAutomationTest: Warning: StructProperty FDrinkableBarSlot::WorldLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrinkableBarSlot.h
+LogAutomationTest: Warning: StructProperty FAttachMeshesAfflictionItem::Offset is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/AttachMeshesAfflictionItem.h
+LogAutomationTest: Warning: StructProperty FBeamCollision::FinalTraceStart is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BeamCollision.h
+LogAutomationTest: Warning: StructProperty FBeamCollision::FinalTraceEnd is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BeamCollision.h
+LogAutomationTest: Warning: StructProperty FBoomerangMover::StartRotation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogAutomationTest: Warning: StructProperty FBoomerangMover::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogAutomationTest: Warning: StructProperty FBoomerangMover::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogAutomationTest: Warning: StructProperty FBoomerangMover::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangMover.h
+LogAutomationTest: Warning: StructProperty FBoomerangSyncer::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangSyncer.h
+LogAutomationTest: Warning: StructProperty FBoomerangSyncer::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangSyncer.h
+LogAutomationTest: Warning: StructProperty FBoomerangSyncer::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoomerangSyncer.h
+LogAutomationTest: Warning: StructProperty FBoscoAbilityTarget::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoscoAbilityTarget.h
+LogAutomationTest: Warning: StructProperty FBoscoLightSetting::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/BoscoLightSetting.h
+LogAutomationTest: Warning: StructProperty FCaveInfluence::Center is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CaveInfluence.h
+LogAutomationTest: Warning: StructProperty FCellNoise::CellSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CellNoise.h
+LogAutomationTest: Warning: StructProperty FChallengeInfo::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ChallengeInfo.h
+LogAutomationTest: Warning: StructProperty FCommunityRewardNotification::IconColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CommunityRewardNotification.h
+LogAutomationTest: Warning: StructProperty FControlEnemyState::InitialCharacterVelocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ControlEnemyState.h
+LogAutomationTest: Warning: StructProperty FControlEnemyState::InitialEnemyVelocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ControlEnemyState.h
+LogAutomationTest: Warning: StructProperty FCSGRaycastHitInfo::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CSGRaycastHitInfo.h
+LogAutomationTest: Warning: StructProperty FCSGRaycastHitInfo::Normal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/CSGRaycastHitInfo.h
+LogAutomationTest: Warning: StructProperty FCurve2DAppearance::Tint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/Curve2DAppearance.h
+LogAutomationTest: Warning: StructProperty FCurve2DAppearance::OutlineTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/Curve2DAppearance.h
+LogAutomationTest: Warning: StructProperty FDailyDealSetup::UnitsRange is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DailyDealSetup.h
+LogAutomationTest: Warning: StructProperty FDailyDealSetup::DiscountRangePercent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DailyDealSetup.h
+LogAutomationTest: Warning: StructProperty FDailyDealSetup::ExtraValueRangePercent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DailyDealSetup.h
+LogAutomationTest: Warning: StructProperty FSoftIconWithColor::Tint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SoftIconWithColor.h
+LogAutomationTest: Warning: StructProperty FDebrisCapsule::Start is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DebrisCapsule.h
+LogAutomationTest: Warning: StructProperty FDebrisCapsule::End is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DebrisCapsule.h
+LogAutomationTest: Warning: StructProperty FDeepRepPath::PathBase is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DeepRepPath.h
+LogAutomationTest: Warning: StructProperty FDeepRepPath::PathOffsets is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DeepRepPath.h
+LogAutomationTest: Warning: StructProperty FDiscordRewardNotification::IconColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DiscordRewardNotification.h
+LogAutomationTest: Warning: StructProperty FDrillOperationData::HitPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrillOperationData.h
+LogAutomationTest: Warning: StructProperty FDrillOperationData::Dir is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrillOperationData.h
+LogAutomationTest: Warning: StructProperty FDrillOperationData::CarveSize is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DrillOperationData.h
+LogAutomationTest: Warning: StructProperty FDroneLightSetting::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DroneLightSetting.h
+LogAutomationTest: Warning: StructProperty FDropInfo::From is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DropInfo.h
+LogAutomationTest: Warning: StructProperty FDropInfo::To is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/DropInfo.h
+LogAutomationTest: Warning: StructProperty FEscortMuleMovementState::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EscortMuleMovementState.h
+LogAutomationTest: Warning: StructProperty FEscortMuleMovementState::AngularVelocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/EscortMuleMovementState.h
+LogAutomationTest: Warning: StructProperty FFakeMoverState::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogAutomationTest: Warning: StructProperty FFakeMoverState::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogAutomationTest: Warning: StructProperty FFakeMoverState::PrevSurfaceNormal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogAutomationTest: Warning: StructProperty FFakeMoverState::NextSurfaceNormal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogAutomationTest: Warning: StructProperty FFakeMoverState::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoverState.h
+LogAutomationTest: Warning: StructProperty FFakeMoveState::Pos1 is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoveState.h
+LogAutomationTest: Warning: StructProperty FFakeMoveState::Pos2 is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoveState.h
+LogAutomationTest: Warning: StructProperty FFakeMoveState::Vel is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeMoveState.h
+LogAutomationTest: Warning: StructProperty FFakeSawMover::PrevPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogAutomationTest: Warning: StructProperty FFakeSawMover::NextPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogAutomationTest: Warning: StructProperty FFakeSawMover::Velocity is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogAutomationTest: Warning: StructProperty FFakeSawMover::Plane is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FakeSawMover.h
+LogAutomationTest: Warning: StructProperty FFlareMeta::Pos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FlareMeta.h
+LogAutomationTest: Warning: StructProperty FFormationDataItem::Direction is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/FormationDataItem.h
+LogAutomationTest: Warning: StructProperty FRoomItem::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomItem.h
+LogAutomationTest: Warning: StructProperty FRoomEntrance::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomEntrance.h
+LogAutomationTest: Warning: StructProperty FRoomEntrance::Direction is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomEntrance.h
+LogAutomationTest: Warning: StructProperty FResourceLocation::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ResourceLocation.h
+LogAutomationTest: Warning: StructProperty FRoomBox::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomBox.h
+LogAutomationTest: Warning: StructProperty FRoomBox::Extends is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomBox.h
+LogAutomationTest: Warning: StructProperty FWeightedLinePoint::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/WeightedLinePoint.h
+LogAutomationTest: Warning: StructProperty FRoomLinePoint::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomLinePoint.h
+LogAutomationTest: Warning: StructProperty FGenerateIconInfo::Size is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GenerateIconInfo.h
+LogAutomationTest: Warning: StructProperty FGliderAnimSync::VelocityPercent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GliderAnimSync.h
+LogAutomationTest: Warning: StructProperty FGrenadeExplodeOperationData::HitPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GrenadeExplodeOperationData.h
+LogAutomationTest: Warning: StructProperty FGrenadeExplodeOperationData::Normal is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/GrenadeExplodeOperationData.h
+LogAutomationTest: Warning: StructProperty FHealthBarLooks::HealthColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/HealthBarLooks.h
+LogAutomationTest: Warning: StructProperty FHealthBarLooks::DamageColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/HealthBarLooks.h
+LogAutomationTest: Warning: StructProperty FInputDisplay::TextTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/InputDisplay.h
+LogAutomationTest: Warning: StructProperty FJettyBootsReplay::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/JettyBootsReplay.h
+LogAutomationTest: Warning: StructProperty FLaserPointerData::Color is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/LaserPointerData.h
+LogAutomationTest: Warning: StructProperty FLineSegmentCarverPoint::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/LineSegmentCarverPoint.h
+LogAutomationTest: Warning: StructProperty FLineSegmentFillerPoint::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/LineSegmentFillerPoint.h
+LogAutomationTest: Warning: StructProperty FPathObstacle::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PathObstacle.h
+LogAutomationTest: Warning: StructProperty FPickaxeDigOperationData::HitPos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PickaxeDigOperationData.h
+LogAutomationTest: Warning: StructProperty FPickaxeDigOperationData::Dir is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PickaxeDigOperationData.h
+LogAutomationTest: Warning: StructProperty FPlacementObstruction::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PlacementObstruction.h
+LogAutomationTest: Warning: StructProperty FPlayerSphere::Center is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/PlayerSphere.h
+LogAutomationTest: Warning: StructProperty FRandLinePoint::Location is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RandLinePoint.h
+LogAutomationTest: Warning: StructProperty FRecoilImpulse::Impulse is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RecoilImpulse.h
+LogAutomationTest: Warning: StructProperty FScanPath::Start is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ScanPath.h
+LogAutomationTest: Warning: StructProperty FScanPath::End is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ScanPath.h
+LogAutomationTest: Warning: StructProperty FRoomGeneratorItem::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomGeneratorItem.h
+LogAutomationTest: Warning: StructProperty FRoomNode::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/RoomNode.h
+LogAutomationTest: Warning: StructProperty FSchematicType::IconTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SchematicType.h
+LogAutomationTest: Warning: StructProperty FSchematicType::FrameTint is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SchematicType.h
+LogAutomationTest: Warning: StructProperty FSpaceRigNotification::IconColor is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SpaceRigNotification.h
+LogAutomationTest: Warning: StructProperty FSpawnEffectItem::Rotation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SpawnEffectItem.h
+LogAutomationTest: Warning: StructProperty FSplineHitResult::SplineTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineHitResult.h
+LogAutomationTest: Warning: StructProperty FSplineSegment::StartLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogAutomationTest: Warning: StructProperty FSplineSegment::StartTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogAutomationTest: Warning: StructProperty FSplineSegment::EndLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogAutomationTest: Warning: StructProperty FSplineSegment::EndTangent is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/SplineSegment.h
+LogAutomationTest: Warning: StructProperty FTentacleTarget::Rotation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TentacleTarget.h
+LogAutomationTest: Warning: StructProperty FTerrainSpawnDebrisOperationData::Pos is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TerrainSpawnDebrisOperationData.h
+LogAutomationTest: Warning: StructProperty FTerrainPlacementBox::Min is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TerrainPlacementBox.h
+LogAutomationTest: Warning: StructProperty FTerrainPlacementBox::Max is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TerrainPlacementBox.h
+LogAutomationTest: Warning: StructProperty FTunnelNode::DirtStartLocation is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/TunnelNode.h
+LogAutomationTest: Warning: StructProperty FVanityNode::Position is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/VanityNode.h
+LogAutomationTest: Warning: StructProperty FZipLine::Start is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ZipLine.h
+LogAutomationTest: Warning: StructProperty FZipLine::End is not initialized properly even though its struct probably has a custom default constructor. Module:FSD File:Public/ZipLine.h
+LogAssetGenerator: Warning: Quick AssetClass computation method failed for asset file F:/DRG Modding/DRGPacker/JSON/Assets/Game/Audio/Characters/Voices/Dwarves/Dwarf_01/DwarfSpeakSep2022/Done/Laserpoint_MachineEventTritilyteExplosiveBarrel_1_Cue.json
+LogAssetGenerator: Error: Failed to parse asset dump file F:/DRG Modding/DRGPacker/JSON/Assets/Game/Audio/Characters/Voices/Dwarves/Dwarf_01/DwarfSpeakSep2022/Done/Laserpoint_MachineEventTritilyteExplosiveBarrel_1_Cue.json as valid json
+LogAssetGeneratorCommandlet: Display: No assets matching the specified category whitelist found
+LogCore: Engine exit requested (reason: Commandlet AssetGeneratorCommandlet_0 finished execution (result 0))
+LogInit: Display: Finished.
+LogInit: Display: 
+Execution of commandlet took:  115.28 seconds
+LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+LogExit: Preparing to exit.
+LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+LogExit: Editor shut down
+LogExit: Object subsystem successfully closed.
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: Shaders left to compile 0
+LogModuleManager: Shutting down and abandoning module DLSS (644)
+LogModuleManager: Shutting down and abandoning module OculusMR (642)
+LogModuleManager: Shutting down and abandoning module SpatializationEditor (640)
+LogModuleManager: Shutting down and abandoning module OpenXRInput (638)
+LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (636)
+LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (634)
+LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (632)
+LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (630)
+LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (628)
+LogModuleManager: Shutting down and abandoning module WebMMediaFactory (626)
+LogModuleManager: Shutting down and abandoning module WebMMediaEditor (624)
+LogModuleManager: Shutting down and abandoning module WmfMediaFactory (622)
+LogModuleManager: Shutting down and abandoning module WmfMediaEditor (620)
+LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (618)
+LogModuleManager: Shutting down and abandoning module MfMediaFactory (616)
+LogModuleManager: Shutting down and abandoning module MfMediaEditor (614)
+LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (612)
+LogModuleManager: Shutting down and abandoning module SequenceRecorder (611)
+LogModuleManager: Shutting down and abandoning module Persona (610)
+LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (609)
+LogModuleManager: Shutting down and abandoning module AnimGraph (607)
+LogModuleManager: Shutting down and abandoning module ImgMediaFactory (602)
+LogModuleManager: Shutting down and abandoning module ImgMediaEditor (600)
+LogModuleManager: Shutting down and abandoning module AvfMediaFactory (598)
+LogModuleManager: Shutting down and abandoning module AvfMediaEditor (596)
+LogModuleManager: Shutting down and abandoning module ControlRigEditor (594)
+LogModuleManager: Shutting down and abandoning module AnimationEditor (593)
+LogModuleManager: Shutting down and abandoning module Kismet (591)
+LogModuleManager: Shutting down and abandoning module KismetWidgets (590)
+LogModuleManager: Shutting down and abandoning module CharacterAI (586)
+LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+LogModuleManager: Shutting down and abandoning module BspMode (582)
+LogModuleManager: Shutting down and abandoning module GeometryMode (580)
+LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (578)
+LogModuleManager: Shutting down and abandoning module SessionServices (576)
+LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (574)
+LogModuleManager: Shutting down and abandoning module FoliageEdit (572)
+LogModuleManager: Shutting down and abandoning module LandscapeEditor (570)
+LogModuleManager: Shutting down and abandoning module MeshPaintMode (568)
+LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (566)
+LogModuleManager: Shutting down and abandoning module ActorPickerMode (564)
+LogModuleManager: Shutting down and abandoning module PlacementMode (562)
+LogModuleManager: Shutting down and abandoning module LiveCoding (560)
+LogModuleManager: Shutting down and abandoning module MovieSceneTracks (558)
+LogModuleManager: Shutting down and abandoning module MovieScene (556)
+LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (554)
+LogModuleManager: Shutting down and abandoning module ImageWriteQueue (552)
+LogModuleManager: Shutting down and abandoning module AIModule (550)
+LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+LogModuleManager: Shutting down and abandoning module PS5_Mock (542)
+LogModuleManager: Shutting down and abandoning module AssetDumper (540)
+LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (538)
+LogModuleManager: Shutting down and abandoning module UnrealPSKPSA (536)
+LogModuleManager: Shutting down and abandoning module GoogleAnalytics (534)
+LogModuleManager: Shutting down and abandoning module Modio (532)
+LogModuleManager: Shutting down and abandoning module FSDRawInput (530)
+LogModuleManager: Shutting down and abandoning module DSTelemetry (528)
+LogModuleManager: Shutting down and abandoning module AssetGenerator (526)
+LogModuleManager: Shutting down and abandoning module SteamSockets (524)
+LogModuleManager: Shutting down and abandoning module OculusEditor (522)
+LogModuleManager: Shutting down and abandoning module OculusInput (520)
+LogModuleManager: Shutting down and abandoning module Reflex (518)
+LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (516)
+LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (514)
+LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (512)
+LogModuleManager: Shutting down and abandoning module ToolMenus (511)
+LogModuleManager: Shutting down and abandoning module ScreenshotTools (508)
+LogModuleManager: Shutting down and abandoning module SlateInsights (506)
+LogModuleManager: Shutting down and abandoning module TimeSynthEditor (504)
+LogModuleManager: Shutting down and abandoning module TimeSynth (502)
+LogModuleManager: Shutting down and abandoning module SynthesisEditor (500)
+LogModuleManager: Shutting down and abandoning module Synthesis (498)
+LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (496)
+LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (494)
+LogModuleManager: Shutting down and abandoning module OpenXREditor (492)
+LogModuleManager: Shutting down and abandoning module EditableMesh (490)
+LogModuleManager: Shutting down and abandoning module CableComponent (488)
+LogModuleManager: Shutting down and abandoning module AudioCapture (486)
+LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (485)
+LogModuleManager: Shutting down and abandoning module AssetTags (482)
+LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (480)
+LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (478)
+LogModuleManager: Shutting down and abandoning module TemplateSequence (472)
+LogModuleManager: Shutting down and abandoning module MediaCompositing (470)
+LogModuleManager: Shutting down and abandoning module OpenImageDenoise (468)
+LogOpenImageDenoise: OIDN shutting down
+LogModuleManager: Shutting down and abandoning module MeshConversion (466)
+LogModuleManager: Shutting down and abandoning module DynamicMesh (464)
+LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (462)
+LogModuleManager: Shutting down and abandoning module GeometricObjects (460)
+LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (458)
+LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (456)
+LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (454)
+LogModuleManager: Shutting down and abandoning module FullBodyIK (452)
+LogModuleManager: Shutting down and abandoning module ChaosNiagara (450)
+LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (448)
+LogModuleManager: Shutting down and abandoning module FieldSystemEngine (447)
+LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (444)
+LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (442)
+LogModuleManager: Shutting down and abandoning module AutomationUtils (440)
+LogModuleManager: Shutting down and abandoning module AlembicImporter (438)
+LogModuleManager: Shutting down and abandoning module AlembicLibrary (437)
+LogModuleManager: Shutting down and abandoning module GeometryCache (436)
+LogModuleManager: Shutting down and abandoning module GeometryCacheEd (435)
+LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (430)
+LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (428)
+LogModuleManager: Shutting down and abandoning module PluginBrowser (426)
+LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (424)
+LogModuleManager: Shutting down and abandoning module CurveEditorTools (422)
+LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (420)
+LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (418)
+LogModuleManager: Shutting down and abandoning module CryptoKeys (416)
+LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (414)
+LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (412)
+LogModuleManager: Shutting down and abandoning module UObjectPlugin (410)
+LogModuleManager: Shutting down and abandoning module PluginUtils (408)
+LogModuleManager: Shutting down and abandoning module PerforceSourceControl (406)
+LogModuleManager: Shutting down and abandoning module SourceControl (405)
+LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (402)
+LogModuleManager: Shutting down and abandoning module AnimationSharingEd (400)
+LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (398)
+LogModuleManager: Shutting down and abandoning module GameplayInsightsEditor (396)
+LogModuleManager: Shutting down and abandoning module GameplayInsights (394)
+LogModuleManager: Shutting down and abandoning module TraceInsights (393)
+MemoryProfiler: Shutdown
+NetworkingProfiler: Shutdown
+LoadingProfiler: Shutdown
+TimingProfiler: Shutdown
+LogModuleManager: Shutting down and abandoning module TraceServices (392)
+LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (388)
+LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (386)
+LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (384)
+LogModuleManager: Shutting down and abandoning module FSD (382)
+LogModuleManager: Shutting down and abandoning module DiscordSDK (380)
+LogModuleManager: Shutting down and abandoning module SteamShared (378)
+LogSteamShared: Freeing the Steam Loaded Modules...
+LogModuleManager: Shutting down and abandoning module AnalyticsBlueprintLibrary (376)
+LogModuleManager: Shutting down and abandoning module WebBrowserWidget (374)
+LogModuleManager: Shutting down and abandoning module WebBrowser (373)
+LogModuleManager: Shutting down and abandoning module Spatialization (370)
+LogModuleManager: Shutting down and abandoning module SoundFields (368)
+LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+LogModuleManager: Shutting down and abandoning module AudioSynesthesia (362)
+LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (360)
+LogModuleManager: Shutting down and abandoning module ActorSequence (358)
+LogModuleManager: Shutting down and abandoning module UdpMessaging (356)
+LogModuleManager: Shutting down and abandoning module TcpMessaging (354)
+LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (352)
+LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (350)
+LogModuleManager: Shutting down and abandoning module ControlRig (348)
+LogModuleManager: Shutting down and abandoning module LevelSequence (347)
+LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (344)
+LogModuleManager: Shutting down and abandoning module Niagara (342)
+LogModuleManager: Shutting down and abandoning module SignalProcessing (341)
+LogModuleManager: Shutting down and abandoning module NiagaraEditor (339)
+LogModuleManager: Shutting down and abandoning module NiagaraCore (336)
+LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (334)
+LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (332)
+LogModuleManager: Shutting down and abandoning module FacialAnimation (330)
+LogModuleManager: Shutting down and abandoning module DataValidation (328)
+LogModuleManager: Shutting down and abandoning module AssetManagerEditor (326)
+LogModuleManager: Shutting down and abandoning module TreeMap (325)
+LogModuleManager: Shutting down and abandoning module PropertyAccessNode (322)
+LogModuleManager: Shutting down and abandoning module AnimationSharing (320)
+LogModuleManager: Shutting down and abandoning module GameplayCameras (318)
+LogModuleManager: Shutting down and abandoning module ScriptPlugin (316)
+LogModuleManager: Shutting down and abandoning module SimpleUGC (314)
+LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (312)
+LogModuleManager: Shutting down and abandoning module PacketHandler (310)
+LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (308)
+LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (306)
+LogModuleManager: Shutting down and abandoning module MediaAssets (304)
+LogModuleManager: Shutting down and abandoning module Overlay (302)
+LogModuleManager: Shutting down and abandoning module OverlayEditor (301)
+LogModuleManager: Shutting down and abandoning module Blutility (298)
+LogModuleManager: Shutting down and abandoning module LevelEditor (297)
+LogModuleManager: Shutting down and abandoning module PixelInspectorModule (296)
+LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (294)
+LogModuleManager: Shutting down and abandoning module MainFrame (292)
+LogModuleManager: Shutting down and abandoning module HotReload (291)
+LogModuleManager: Shutting down and abandoning module ContentBrowser (287)
+LogModuleManager: Shutting down and abandoning module CollectionManager (286)
+LogModuleManager: Shutting down and abandoning module ContentBrowserData (284)
+LogModuleManager: Shutting down and abandoning module IntroTutorials (280)
+LogModuleManager: Shutting down and abandoning module VREditor (278)
+LogModuleManager: Shutting down and abandoning module StringTableEditor (276)
+LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (274)
+LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (272)
+LogModuleManager: Shutting down and abandoning module FunctionalTesting (270)
+LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (268)
+LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (267)
+LogModuleManager: Shutting down and abandoning module UMG (264)
+LogModuleManager: Shutting down and abandoning module UMGEditor (263)
+LogModuleManager: Shutting down and abandoning module MessageLog (261)
+LogModuleManager: Shutting down and abandoning module SlateReflector (256)
+LogModuleManager: Shutting down and abandoning module Slate (254)
+LogModuleManager: Shutting down and abandoning module SlateCore (252)
+LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (250)
+LogModuleManager: Shutting down and abandoning module UnrealEd (248)
+LogModuleManager: Shutting down and abandoning module MRMesh (246)
+LogModuleManager: Shutting down and abandoning module SourceCodeAccess (244)
+LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (242)
+LogModuleManager: Shutting down and abandoning module XAudio2 (240)
+LogModuleManager: Shutting down and abandoning module Networking (238)
+LogModuleManager: Shutting down and abandoning module Core (236)
+LogModuleManager: Shutting down and abandoning module MaterialEditor (234)
+LogModuleManager: Shutting down and abandoning module Settings (233)
+LogModuleManager: Shutting down and abandoning module MovieSceneTools (230)
+LogModuleManager: Shutting down and abandoning module CurveEditor (229)
+LogModuleManager: Shutting down and abandoning module Sequencer (227)
+LogModuleManager: Shutting down and abandoning module EditorStyle (226)
+LogModuleManager: Shutting down and abandoning module KismetCompiler (222)
+LogModuleManager: Shutting down and abandoning module MeshBuilder (220)
+LogModuleManager: Shutting down and abandoning module MeshUtilities (218)
+LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (217)
+LogModuleManager: Shutting down and abandoning module MeshReductionInterface (216)
+LogModuleManager: Shutting down and abandoning module MeshBoneReduction (215)
+LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (213)
+LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (211)
+LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (209)
+LogModuleManager: Shutting down and abandoning module MaterialBaking (205)
+LogModuleManager: Shutting down and abandoning module DirectoryWatcher (201)
+LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (198)
+LogModuleManager: Shutting down and abandoning module DerivedDataCache (196)
+LogModuleManager: Shutting down and abandoning module TargetPlatform (194)
+LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (189)
+LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (187)
+LogModuleManager: Shutting down and abandoning module MetalShaderFormat (185)
+LogModuleManager: Shutting down and abandoning module TextureFormatOodle (183)
+LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (181)
+LogModuleManager: Shutting down and abandoning module TextureFormatPVR (179)
+LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (177)
+LogModuleManager: Shutting down and abandoning module TextureFormatDXT (175)
+LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (173)
+LogModuleManager: Shutting down and abandoning module TextureFormatASTC (171)
+LogModuleManager: Shutting down and abandoning module ImageWrapper (170)
+LogModuleManager: Shutting down and abandoning module AudioFormatOpus (167)
+LogModuleManager: Shutting down and abandoning module AudioFormatOgg (165)
+LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (163)
+LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (161)
+LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (159)
+LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (157)
+LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (155)
+LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (153)
+LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (151)
+LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (149)
+LogModuleManager: Shutting down and abandoning module MacTargetPlatform (147)
+LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (145)
+LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (143)
+LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (141)
+LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (139)
+LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (137)
+LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (135)
+LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (133)
+LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (131)
+LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (129)
+LogModuleManager: Shutting down and abandoning module Messaging (127)
+LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (125)
+LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (123)
+LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (121)
+LogModuleManager: Shutting down and abandoning module NullDrv (118)
+LogModuleManager: Shutting down and abandoning module PhysXCooking (116)
+LogModuleManager: Shutting down and abandoning module Chaos (114)
+LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (112)
+LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (111)
+LogModuleManager: Shutting down and abandoning module AVEncoder (110)
+LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (106)
+LogModuleManager: Shutting down and abandoning module FSDAnsel (104)
+LogModuleManager: Shutting down and abandoning module DLSSBlueprint (102)
+LogModuleManager: Shutting down and abandoning module FSR2TemporalUpscaling (100)
+LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+LogModuleManager: Shutting down and abandoning module AISupportModule (96)
+LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (94)
+LogModuleManager: Shutting down and abandoning module OpenXRAR (92)
+LogModuleManager: Shutting down and abandoning module AugmentedReality (91)
+LogModuleManager: Shutting down and abandoning module OpenXRHMD (88)
+LogModuleManager: Shutting down and abandoning module ChunkDownloader (86)
+LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
+LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (80)
+LogModuleManager: Shutting down and abandoning module OnlineSubsystem (78)
+LogModuleManager: Shutting down and abandoning module XMPP (73)
+LogModuleManager: Shutting down and abandoning module WebSockets (72)
+LogModuleManager: Shutting down and abandoning module HTTP (69)
+LogHttp: Display: cleaning up 0 outstanding Http requests.
+LogModuleManager: Shutting down and abandoning module SSL (68)
+LogModuleManager: Shutting down and abandoning module WmfMedia (64)
+LogModuleManager: Shutting down and abandoning module Media (63)
+LogModuleManager: Shutting down and abandoning module MediaInfo (62)
+LogModuleManager: Shutting down and abandoning module ExrReaderGpu (58)
+LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+LogModuleManager: Shutting down and abandoning module PixWinPlugin (48)
+LogModuleManager: Shutting down and abandoning module FSDEngine (46)
+LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (44)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (40)
+LogModuleManager: Shutting down and abandoning module PlatformCrypto (38)
+LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (36)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+LogModuleManager: Shutting down and abandoning module RenderCore (26)
+LogModuleManager: Shutting down and abandoning module Landscape (24)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+LogExit: Exiting.
+Log file closed, 09/08/23 11:49:50

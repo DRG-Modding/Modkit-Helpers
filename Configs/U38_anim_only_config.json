@@ -15,7 +15,6 @@
   "SkipSerialization": [
     0,
     1,
-    2,
     3,
     4,
     5,
@@ -25,7 +24,6 @@
     9,
     10,
     12,
-    15,
     18,
     19,
     20,
@@ -630,5 +628,6 @@
   "UseSMActorX": false,
   "UseSKMActorX": false,
   "UseAMActorX": false,
-  "ForceOneLOD": true
+  "ForceOneLOD": true,
+  "ConcurrentSerialization": true
 }

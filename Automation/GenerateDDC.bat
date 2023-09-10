@@ -1,0 +1,1 @@
+"F:\UNEPIC GAMES\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" "F:\DRG Modding\Project Generator\FSDTemplateU38P7\FSD.uproject" -run=DerivedDataCache -fill -DDC=CreateInstalledProjectPak

@@ -5,7 +5,7 @@
     "."
   ],
   "JSONDir": "F:\\DRG Modding\\DRGPacker\\JSON\\Assets",
-  "CookedDir": "F:\\DRG Modding\\DRGPacker\\JSON\\Cooked",
+  "CookedDir": "F:\\DRG Modding\\Project Generator\\FSDTemplateU38P7\\Content",
   "FromDir": "F:\\DRG Modding\\DRGPacker\\_unpacked\\FSD\\Content",
   "InfoDir": "F:\\DRG Modding\\DRGPacker\\JSON",
   "DefaultGameConfig": "F:\\DRG Modding\\DRGPacker\\_unpacked\\FSD\\Config\\DefaultGame.ini",
@@ -17,7 +17,6 @@
     19,
     22,
     23,
-    25,
     26
   ],
   "DummyAssets": [],
@@ -612,5 +611,6 @@
   "UseSMActorX": false,
   "UseSKMActorX": false,
   "UseAMActorX": false,
-  "ForceOneLOD": true
+  "ForceOneLOD": true,
+  "ConcurrentSerialization": true
 }

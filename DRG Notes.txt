@@ -51,8 +51,6 @@ Temp solution to fix: add missing tracks in JSON
 
 Figure out why many ABPs with an assigned skeleton crashes editor
 
-Figure out why some float properties within curve vectors are not being serialized correctly
-
 Figure out why some BehaviourTree assets crash on opening but others don't - seems to be tied to whether or not they have a blackboard generated, but sometime not??
 
 =========================================
@@ -62,16 +60,18 @@ U38 GENERATION
 Things to check:
 - "/Enemies/HydraWeed/Assets/ANIM_HydraWeed_Heart_Damaged_Additive" fbx has valid ref pose when generating in editor
 
-- Generate these using umodel psa instead of fmodel due to them being empty/name being too long
+- These are all empty anims so make sure their JSONs aren't generated
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_L_OFF.uasset",
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_L_ON.uasset",
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_R_OFF.uasset",
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_R_ON.uasset",
     "/WeaponsNTools/GatlingGun/Animation/ANIM_Weapon_Gatling_Fire",
     "/GameElements/Objectives/Facility/Caretaker/Body/SK_Facility_CareTaker_Body_Anim",
+
+- Name is too long - PSA can only support up to 64 characters, make sure JSON is not generated
     "/GameElements/Objectives/Facility/DefenseTurret/Assets/ANIM_Force_Field_Turret_Forcefield_Turret_Root_ForceField_Turret_Compressed"
 
-- What is /Script/Engine.Rig? Looks like it could be populated as a simple asset
+- Figure out why many ABPs with an assigned skeleton crashes editor
 
 - "/Script/AnimationSharing.AnimationSharingSetup" is simple asset
 
@@ -79,43 +79,40 @@ Things to check:
     FSD/Content/Enemies/Spider/Animation/ANIM_Spider_Spit_Tank
     FSD/Content/Enemies/Spider/Animation/ANIM_Spider_TankBoss_Heavy_Fireball
 
-- Blendspace1D cooked can be duplicate uncooked
 - ParticleSystem cooked can be duplicate uncooked - see what happens if you generate JSON over it?
 
-JSON that needs to be edited to add/edit skeleton manually (or copy from previous project):
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (it doesn't use one in-game, so make one for it first)
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic02.json (3P_Dwarf_Rig_Skeleton)
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic03.json (3P_Dwarf_Rig_Skeleton)
-- /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetHardhatRadio.json (3P_Dwarf_Rig_Skeleton)
-- /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01 (SK_Pistol_GrapplingGun_01_Skeleton)
+- Need to figure out how to serialize custom static meshes, i.e. /Script/FSDEngine.StaticMeshCarver
+    /Game/Landscape/Biomes/Biomes_Testing/CleanTester/Assets/SMC_SaltFlake_04
 
-Why exporter not produce fbx for these?
-- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_01.uasset
-- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_02.uasset
-- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_03.uasset
-- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_04.uasset
-- /Art/Environments/Holiday_GreatEggHunt/Animations/ANIM_GreatEggHunt_WobbleEgg_Wobble_05.uasset
+- JSON that needs to be edited to add/edit skeleton manually (or copy from previous project):
+    /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetCyclops01.json (it doesn't use one in-game, so make one for it first)
+    /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic02.json (3P_Dwarf_Rig_Skeleton)
+    /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetDwarfClassic03.json (3P_Dwarf_Rig_Skeleton)
+    /Game/Character/Vanity2/Headwear/SK_Vanity_Headwear_HelmetHardhatRadio.json (3P_Dwarf_Rig_Skeleton)
+    /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01 (SK_Pistol_GrapplingGun_01_Skeleton)
 
 Before generating in editor:
 1. Run fmodel mass export script
 2. Copy 6 missing animations from previous project
 3. Use blender script to mass convert actorX to fbx
 
-Order to generate in editor:
+Order to generate:
 1. Cooked assets
-2. Textures
-3. Materials
-4. StaticMeshes
-5. Skeletons
-6. SkeletalMeshes
-7. Run rename/make/delete physics assets python script to match list
-8. Regenerate SkeletalMeshes (to fix physics asset references)
-9. Sound cues (must be in-editor)
-10. Manually import animation sequences
-11. Run the JSON for anim sequences to fix notifies - make sure refresh if OFF
-12. Select every anim sequence right click -> save (so that fixed notifies persist permanently)
-13. Animation Montages
-14. Animation Blueprints
-15. Everything else
-16. Make sure sound classes + sub mixes are connected
-17. Copy in correct fonts
+2. Textures/Texture2D/TextureCube (can be done in CLI)
+3. Materials (can be done in CLI)
+4. Sound Cues
+5. Everything else not in the rest of this list
+6. Static Meshes
+7. Skeletons
+8. Physics Assets
+9. Skeletal Meshes 
+10. Animation Sequences
+11. Animation Montages
+12. Animation Blueprints
+13. BlendSpaceBase
+14. Blueprints
+15. Widget Blueprints
+16. Simple Assets
+17. Make sure sound classes + sub mixes are connected
+18. Copy in correct fonts
+19. Any duplicate uncook assets

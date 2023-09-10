@@ -1,7 +1,7 @@
 import json
 import os
 
-phys_files = 'F:\DRG Modding\Project Generator\FSDTemplateU38P3\Content'
+phys_files = 'F:\DRG Modding\Project Generator\FSDTemplateU38P7\Content'
 json_info = 'F:\DRG Modding\DRGPacker\JSON\AssetTypes.json'
 
 def main():
