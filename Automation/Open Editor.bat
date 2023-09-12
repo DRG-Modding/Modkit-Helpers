@@ -1,0 +1,1 @@
+"F:\UNEPIC GAMES\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "F:\DRG Modding\Project Generator\ModkitV2\FSD.uproject" -UsePaks -stdout -NoLogTimes

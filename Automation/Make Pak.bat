@@ -1,0 +1,1 @@
+repak.exe pack -m /Game/ Content/
