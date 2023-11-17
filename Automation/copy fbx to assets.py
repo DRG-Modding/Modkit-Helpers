@@ -3,7 +3,7 @@ import os
 IN_PATH = "F:\\DRG Modding\\DRGPacker\\JSON\\Animation Stuff\\#placeholder#\\FSD\\Content"
 OUT_PATH = "F:\\DRG Modding\\DRGPacker\\JSON\\Assets\\Game"
 #TYPES = ["AnimSeqs", "AnimComps", "AnimMonts", "SKMs", "SMs"]
-TYPES = ["Anims", "SKMs", "SMs"]
+TYPES = ["Anims"]
 
 def main():
     for type in TYPES:

@@ -68,7 +68,7 @@ Things to check:
     "/WeaponsNTools/GatlingGun/Animation/ANIM_Weapon_Gatling_Fire",
     "/GameElements/Objectives/Facility/Caretaker/Body/SK_Facility_CareTaker_Body_Anim",
 
-- Name is too long - PSA can only support up to 64 characters, make sure JSON is not generated
+- Name is too long - PSA can only support up to 64 characters, make sure CUE4Parse JSON is not generated before blender
     "/GameElements/Objectives/Facility/DefenseTurret/Assets/ANIM_Force_Field_Turret_Forcefield_Turret_Root_ForceField_Turret_Compressed"
 
 - Figure out why many ABPs with an assigned skeleton crashes editor
@@ -102,10 +102,10 @@ Order to generate:
 3. Materials (can be done in CLI)
 4. Sound Cues
 5. Everything else not in the rest of this list
-6. Static Meshes
+6. Static Meshes (might need to do a couple of rounds between editor restarts with refresh off)
 7. Skeletons
 8. Physics Assets
-9. Skeletal Meshes 
+9. Skeletal Meshes (if it crashes, generate again in debug mode, it may just work)
 10. Animation Sequences
 11. Animation Montages
 12. Animation Blueprints
