@@ -2,7 +2,7 @@
 *.psk
 *.psa
 *.pskx
-*.fbx
+# *.fbx
 
 Animation Stuff/*
 !Animation Stuff/Edited JSON
@@ -13,6 +13,6 @@ Assets/*
 
 Temp/*
 
-Fixed/*
+Fixed/MCR fixed mb
 
 Old/*

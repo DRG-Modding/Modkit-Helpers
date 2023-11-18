@@ -1,0 +1,5841 @@
+{
+  "AssetClass": "WidgetBlueprint",
+  "AssetPackage": "/Game/UI/Menu_Cheats/CheatConsole/_MENU_CheatConsole",
+  "AssetName": "_MENU_CheatConsole",
+  "AssetSerializedData": {
+    "SkipDependecies": false,
+    "SuperStruct": 25,
+    "Children": [
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "OnKeyUp",
+        "SuperStruct": 89,
+        "Children": [],
+        "ChildProperties": [
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StructProperty",
+            "ObjectName": "MyGeometry",
+            "ArrayDim": 1,
+            "PropertyFlags": "148",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "Struct": 124
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StructProperty",
+            "ObjectName": "InKeyEvent",
+            "ArrayDim": 1,
+            "PropertyFlags": "148",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "Struct": 125
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StructProperty",
+            "ObjectName": "ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "1408",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "Struct": 126
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StructProperty",
+            "ObjectName": "CallFunc_Unhandled_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "Struct": 126
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StructProperty",
+            "ObjectName": "CallFunc_Handled_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "Struct": 126
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "NameProperty",
+            "ObjectName": "CallFunc_MakeLiteralName_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "CallFunc_IsKeyEventAction_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          }
+        ],
+        "Script": [
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Name",
+                "PinSubCategory": "Name"
+              },
+              "VariableName": "CallFunc_MakeLiteralName_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "MakeLiteralName",
+              "ContextClass": "/Script/Engine.KismetSystemLibrary",
+              "Parameters": [
+                {
+                  "Inst": "NameConst",
+                  "Value": "CloseMenu"
+                }
+              ]
+            },
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "LetBool",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "CallFunc_IsKeyEventAction_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "IsKeyEventAction",
+              "ContextClass": "/Script/FSD.InputFunctionLibrary",
+              "Parameters": [
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "Struct",
+                    "PinSubCategory": "Struct",
+                    "PinSubCategoryObject": "/Script/SlateCore.KeyEvent"
+                  },
+                  "VariableName": "InKeyEvent"
+                },
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "Name",
+                    "PinSubCategory": "Name"
+                  },
+                  "VariableName": "CallFunc_MakeLiteralName_ReturnValue"
+                },
+                {
+                  "Inst": "False"
+                }
+              ]
+            },
+            "StatementIndex": 41
+          },
+          {
+            "Inst": "JumpIfNot",
+            "Offset": 168,
+            "Condition": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "CallFunc_IsKeyEventAction_ReturnValue"
+            },
+            "StatementIndex": 80
+          },
+          {
+            "Inst": "LocalVirtualFunction",
+            "FunctionName": "Back Pressed",
+            "Parameters": [],
+            "StatementIndex": 94
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "CallFunc_Handled_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "Handled",
+              "ContextClass": "/Script/UMG.WidgetBlueprintLibrary",
+              "Parameters": []
+            },
+            "StatementIndex": 108
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalOutVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "ReturnValue"
+            },
+            "Expression": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "CallFunc_Handled_ReturnValue"
+            },
+            "StatementIndex": 136
+          },
+          {
+            "Inst": "Jump",
+            "Offset": 223,
+            "StatementIndex": 163
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "CallFunc_Unhandled_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "Unhandled",
+              "ContextClass": "/Script/UMG.WidgetBlueprintLibrary",
+              "Parameters": []
+            },
+            "StatementIndex": 168
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalOutVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "ReturnValue"
+            },
+            "Expression": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "CallFunc_Unhandled_ReturnValue"
+            },
+            "StatementIndex": 196
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "LocalOutVariable",
+              "VariableType": {
+                "PinCategory": "Struct",
+                "PinSubCategory": "Struct",
+                "PinSubCategoryObject": "/Script/UMG.EventReply"
+              },
+              "VariableName": "ReturnValue"
+            },
+            "StatementIndex": 223
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 233
+          }
+        ],
+        "FunctionFlags": "214042632"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "OnLoaded_5087EABD4CB81111640A91B2888B99F6",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ClassProperty",
+            "ObjectName": "Loaded",
+            "ArrayDim": 1,
+            "PropertyFlags": "1125899906842772",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "MetaClass": 12
+          }
+        ],
+        "Script": [
+          {
+            "Inst": "LetValueOnPersistentFrame",
+            "PropertyName": "K2Node_CustomEvent_Loaded",
+            "PropertyType": {
+              "PinCategory": "Class",
+              "PinSubCategory": "Class",
+              "PinSubCategoryObject": "/Script/CoreUObject.Object"
+            },
+            "Expression": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Class",
+                "PinSubCategory": "Class",
+                "PinSubCategoryObject": "/Script/CoreUObject.Object"
+              },
+              "VariableName": "Loaded"
+            },
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 15
+              }
+            ],
+            "StatementIndex": 18
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 33
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 35
+          }
+        ],
+        "FunctionFlags": "201326592"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "PreConstruct",
+        "SuperStruct": 90,
+        "Children": [],
+        "ChildProperties": [
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "IsDesignTime",
+            "ArrayDim": 1,
+            "PropertyFlags": "148",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          }
+        ],
+        "Script": [
+          {
+            "Inst": "LetValueOnPersistentFrame",
+            "PropertyName": "K2Node_Event_IsDesignTime",
+            "PropertyType": {
+              "PinCategory": "bool",
+              "PinSubCategory": "bool"
+            },
+            "Expression": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "IsDesignTime"
+            },
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 339
+              }
+            ],
+            "StatementIndex": 18
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 33
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 35
+          }
+        ],
+        "FunctionFlags": "134350856"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "OnShown",
+        "SuperStruct": 87,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 454
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134744064"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Button_XP_K2Node_ComponentBoundEvent_238_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 491
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Button_Credits_K2Node_ComponentBoundEvent_239_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 508
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Button_Resources_K2Node_ComponentBoundEvent_242_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 525
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Button_Perks_K2Node_ComponentBoundEvent_246_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 542
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_RotateMissions_K2Node_ComponentBoundEvent_15_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 559
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_Connect_K2Node_ComponentBoundEvent_54_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 572
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_UnlockAllWeapons_K2Node_ComponentBoundEvent_44_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 725
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ResetUpgrades_K2Node_ComponentBoundEvent_58_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 737
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_AdvanceCampaign_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 749
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_UnlockAllUpgrades_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 761
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_GiveSchematics_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 773
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ForgeSchematics_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 785
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ResetSchematics_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 797
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_GiveRandomSchematic_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 809
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ForceCrates_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 821
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_StartMission_K2Node_ComponentBoundEvent_7_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 833
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "Back Pressed",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1077
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "201326592"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_GivePickaxeVanity_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1082
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ResetPickaxeVanity_K2Node_ComponentBoundEvent_9_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1094
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ForceLostPack_K2Node_ComponentBoundEvent_10_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1106
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_ShowAllCreatures_K2Node_ComponentBoundEvent_11_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1118
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_RotateDeepDive_K2Node_ComponentBoundEvent_12_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1130
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Basic_CompleteCampaign_K2Node_ComponentBoundEvent_13_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1142
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "BndEvt__Button_CustomMission_K2Node_ComponentBoundEvent_14_OnClicked__DelegateSignature",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [],
+        "Script": [
+          {
+            "Inst": "LocalFinalFunction",
+            "Function": "ExecuteUbergraph__MENU_CheatConsole",
+            "Parameters": [
+              {
+                "Inst": "IntConst",
+                "Value": 1154
+              }
+            ],
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 17
+          }
+        ],
+        "FunctionFlags": "134217728"
+      },
+      {
+        "FieldKind": "Function",
+        "ObjectClass": "Function",
+        "ObjectName": "ExecuteUbergraph__MENU_CheatConsole",
+        "SuperStruct": -1,
+        "Children": [],
+        "ChildProperties": [
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "IntProperty",
+            "ObjectName": "EntryPoint",
+            "ArrayDim": 1,
+            "PropertyFlags": "148",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ObjectProperty",
+            "ObjectName": "CallFunc_GetWindowManager_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "524288",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "PropertyClass": 24
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ClassProperty",
+            "ObjectName": "K2Node_CustomEvent_Loaded",
+            "ArrayDim": 1,
+            "PropertyFlags": "1125899906842624",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "MetaClass": 12
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "DelegateProperty",
+            "ObjectName": "K2Node_CreateDelegate_OutputDelegate",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "SignatureFunction": "OnAssetClassLoaded__DelegateSignature"
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ClassProperty",
+            "ObjectName": "Temp_class_Variable",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "MetaClass": 12
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ClassProperty",
+            "ObjectName": "K2Node_ClassDynamicCast_AsWindow_Widget",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "MetaClass": 25
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "K2Node_ClassDynamicCast_bSuccess",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ObjectProperty",
+            "ObjectName": "CallFunc_OpenWindowFromClass_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "524288",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "PropertyClass": 25
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "K2Node_Event_IsDesignTime",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ObjectProperty",
+            "ObjectName": "CallFunc_GetWindowManager_ReturnValue_1",
+            "ArrayDim": 1,
+            "PropertyFlags": "524288",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "PropertyClass": 24
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "TextProperty",
+            "ObjectName": "CallFunc_GetText_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StrProperty",
+            "ObjectName": "CallFunc_Conv_TextToString_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "StrProperty",
+            "ObjectName": "CallFunc_Concat_StrStr_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ObjectProperty",
+            "ObjectName": "CallFunc_GetSRGameState_gameState",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "PropertyClass": 4
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "CallFunc_IsServer_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ObjectProperty",
+            "ObjectName": "CallFunc_GetFSDGameInstance_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "PropertyClass": 20
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "ObjectProperty",
+            "ObjectName": "CallFunc_GetGeneratedMission_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "PropertyClass": 22
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "CallFunc_IsValid_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          },
+          {
+            "FieldKind": "Property",
+            "ObjectClass": "BoolProperty",
+            "ObjectName": "CallFunc_BooleanAND_ReturnValue",
+            "ArrayDim": 1,
+            "PropertyFlags": "0",
+            "RepNotifyFunc": "None",
+            "BlueprintReplicationCondition": 0,
+            "BoolSize": 1,
+            "NativeBool": true
+          }
+        ],
+        "Script": [
+          {
+            "Inst": "PushExecutionFlow",
+            "Offset": 1159,
+            "StatementIndex": 0
+          },
+          {
+            "Inst": "ComputedJump",
+            "OffsetExpression": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "int",
+                "PinSubCategory": "int"
+              },
+              "VariableName": "EntryPoint"
+            },
+            "StatementIndex": 5
+          },
+          {
+            "Inst": "LetObj",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Class",
+                "PinSubCategory": "Class",
+                "PinSubCategoryObject": "/Script/CoreUObject.Object"
+              },
+              "VariableName": "Temp_class_Variable"
+            },
+            "Expression": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Class",
+                "PinSubCategory": "Class",
+                "PinSubCategoryObject": "/Script/CoreUObject.Object"
+              },
+              "VariableName": "K2Node_CustomEvent_Loaded"
+            },
+            "StatementIndex": 15
+          },
+          {
+            "Inst": "LetObj",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.WindowManager"
+              },
+              "VariableName": "CallFunc_GetWindowManager_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "GetWindowManager",
+              "ContextClass": "/Script/FSD.GameFunctionLibrary",
+              "Parameters": [
+                {
+                  "Inst": "Self"
+                }
+              ]
+            },
+            "StatementIndex": 34
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Class",
+                "PinSubCategory": "Class",
+                "PinSubCategoryObject": "/Script/FSD.WindowWidget"
+              },
+              "VariableName": "K2Node_ClassDynamicCast_AsWindow_Widget"
+            },
+            "Expression": {
+              "Inst": "MetaCast",
+              "Class": "/Script/FSD.WindowWidget",
+              "Expression": {
+                "Inst": "LocalVariable",
+                "VariableType": {
+                  "PinCategory": "Class",
+                  "PinSubCategory": "Class",
+                  "PinSubCategoryObject": "/Script/CoreUObject.Object"
+                },
+                "VariableName": "Temp_class_Variable"
+              }
+            },
+            "StatementIndex": 55
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "K2Node_ClassDynamicCast_bSuccess"
+            },
+            "Expression": {
+              "Inst": "PrimitiveCast",
+              "CastType": "ObjectToBool",
+              "Expression": {
+                "Inst": "LocalVariable",
+                "VariableType": {
+                  "PinCategory": "Class",
+                  "PinSubCategory": "Class",
+                  "PinSubCategoryObject": "/Script/FSD.WindowWidget"
+                },
+                "VariableName": "K2Node_ClassDynamicCast_AsWindow_Widget"
+              }
+            },
+            "StatementIndex": 91
+          },
+          {
+            "Inst": "LetObj",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.WindowWidget"
+              },
+              "VariableName": "CallFunc_OpenWindowFromClass_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "Context",
+              "Context": {
+                "Inst": "LocalVariable",
+                "VariableType": {
+                  "PinCategory": "Object",
+                  "PinSubCategory": "Object",
+                  "PinSubCategoryObject": "/Script/FSD.WindowManager"
+                },
+                "VariableName": "CallFunc_GetWindowManager_ReturnValue"
+              },
+              "SkipOffsetForNull": 25,
+              "RValuePropertyType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.WindowWidget"
+              },
+              "RValuePropertyName": "CallFunc_OpenWindowFromClass_ReturnValue",
+              "Expression": {
+                "Inst": "FinalFunction",
+                "Function": "OpenWindowFromClass",
+                "Parameters": [
+                  {
+                    "Inst": "LocalVariable",
+                    "VariableType": {
+                      "PinCategory": "Class",
+                      "PinSubCategory": "Class",
+                      "PinSubCategoryObject": "/Script/FSD.WindowWidget"
+                    },
+                    "VariableName": "K2Node_ClassDynamicCast_AsWindow_Widget"
+                  },
+                  {
+                    "Inst": "IntConst",
+                    "Value": 100
+                  },
+                  {
+                    "Inst": "True"
+                  }
+                ]
+              }
+            },
+            "StatementIndex": 120
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 177
+          },
+          {
+            "Inst": "BindDelegate",
+            "FunctionName": "OnLoaded_5087EABD4CB81111640A91B2888B99F6",
+            "Delegate": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Delegate",
+                "PinSubCategory": "Delegate"
+              },
+              "VariableName": "K2Node_CreateDelegate_OutputDelegate"
+            },
+            "Object": {
+              "Inst": "Self"
+            },
+            "StatementIndex": 178
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "LoadAssetClass",
+            "ContextClass": "/Script/Engine.KismetSystemLibrary",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "SoftObjectConst",
+                "Value": {
+                  "Inst": "StringConst",
+                  "Value": "/Game/UI/Menu_Cheats/MissionCheat/MENU_MissionCheat.MENU_MissionCheat_C"
+                }
+              },
+              {
+                "Inst": "LocalVariable",
+                "VariableType": {
+                  "PinCategory": "Delegate",
+                  "PinSubCategory": "Delegate"
+                },
+                "VariableName": "K2Node_CreateDelegate_OutputDelegate"
+              },
+              {
+                "Inst": "StructConst",
+                "Struct": "/Script/Engine.LatentActionInfo",
+                "Properties": {
+                  "Missing property name0": [
+                    {
+                      "Inst": "IntConst",
+                      "Value": -1
+                    }
+                  ],
+                  "Missing property name1": [
+                    {
+                      "Inst": "IntConst",
+                      "Value": -1636634707
+                    }
+                  ],
+                  "Missing property name2": [
+                    {
+                      "Inst": "NameConst",
+                      "Value": "ExecuteUbergraph__MENU_CheatConsole"
+                    }
+                  ],
+                  "Missing property name3": [
+                    {
+                      "Inst": "Self"
+                    }
+                  ]
+                }
+              }
+            ],
+            "StatementIndex": 201
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 333
+          },
+          {
+            "Inst": "Jump",
+            "Offset": 178,
+            "StatementIndex": 334
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 339
+          },
+          {
+            "Inst": "Context",
+            "Context": {
+              "Inst": "ObjectConst",
+              "Object": "/Script/Engine.Default__GameplayStatics"
+            },
+            "SkipOffsetForNull": 38,
+            "Expression": {
+              "Inst": "FinalFunction",
+              "Function": "PlaySound2D",
+              "Parameters": [
+                {
+                  "Inst": "Self"
+                },
+                {
+                  "Inst": "ObjectConst",
+                  "Object": "/Game/Audio/SFX/UI/Menu/Button_Click_keyboard_01_Cue.Button_Click_keyboard_01_Cue"
+                },
+                {
+                  "Inst": "FloatConst",
+                  "Value": 1.0
+                },
+                {
+                  "Inst": "FloatConst",
+                  "Value": 1.0
+                },
+                {
+                  "Inst": "FloatConst",
+                  "Value": 0.0
+                },
+                {
+                  "Inst": "NoObject"
+                },
+                {
+                  "Inst": "NoObject"
+                },
+                {
+                  "Inst": "True"
+                }
+              ]
+            },
+            "StatementIndex": 340
+          },
+          {
+            "Inst": "LetObj",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.WindowManager"
+              },
+              "VariableName": "CallFunc_GetWindowManager_ReturnValue_1"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "GetWindowManager",
+              "ContextClass": "/Script/FSD.GameFunctionLibrary",
+              "Parameters": [
+                {
+                  "Inst": "Self"
+                }
+              ]
+            },
+            "StatementIndex": 400
+          },
+          {
+            "Inst": "Context",
+            "Context": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.WindowManager"
+              },
+              "VariableName": "CallFunc_GetWindowManager_ReturnValue_1"
+            },
+            "SkipOffsetForNull": 10,
+            "Expression": {
+              "Inst": "FinalFunction",
+              "Function": "CloseTopWindow",
+              "Parameters": []
+            },
+            "StatementIndex": 421
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 453
+          },
+          {
+            "Inst": "Context",
+            "Context": {
+              "Inst": "InstanceVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Game/UI/Menu_TopBar/MENU_SpaceRigTemplate.MENU_SpaceRigTemplate_C"
+              },
+              "VariableName": "MENU_SpaceRigTemplate"
+            },
+            "SkipOffsetForNull": 14,
+            "Expression": {
+              "Inst": "LocalVirtualFunction",
+              "FunctionName": "Refresh",
+              "Parameters": []
+            },
+            "StatementIndex": 454
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 490
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_AddXP",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "IntConst",
+                "Value": 10000
+              }
+            ],
+            "StatementIndex": 491
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 507
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_AddCredits",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "IntConst",
+                "Value": 10000
+              }
+            ],
+            "StatementIndex": 508
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 524
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Resources",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "FloatConst",
+                "Value": 150.0
+              }
+            ],
+            "StatementIndex": 525
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 541
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_AddPerkPoints",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "IntConst",
+                "Value": 50
+              }
+            ],
+            "StatementIndex": 542
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 558
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_GenerateNewMissionSeed",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "True"
+              }
+            ],
+            "StatementIndex": 559
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 571
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Text",
+                "PinSubCategory": "Text"
+              },
+              "VariableName": "CallFunc_GetText_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "Context",
+              "Context": {
+                "Inst": "InstanceVariable",
+                "VariableType": {
+                  "PinCategory": "Object",
+                  "PinSubCategory": "Object",
+                  "PinSubCategoryObject": "/Script/UMG.EditableTextBox"
+                },
+                "VariableName": "ConnectString"
+              },
+              "SkipOffsetForNull": 10,
+              "RValuePropertyType": {
+                "PinCategory": "Text",
+                "PinSubCategory": "Text"
+              },
+              "RValuePropertyName": "CallFunc_GetText_ReturnValue",
+              "Expression": {
+                "Inst": "FinalFunction",
+                "Function": "GetText",
+                "Parameters": []
+              }
+            },
+            "StatementIndex": 572
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "String",
+                "PinSubCategory": "String"
+              },
+              "VariableName": "CallFunc_Conv_TextToString_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "Conv_TextToString",
+              "ContextClass": "/Script/Engine.KismetTextLibrary",
+              "Parameters": [
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "Text",
+                    "PinSubCategory": "Text"
+                  },
+                  "VariableName": "CallFunc_GetText_ReturnValue"
+                }
+              ]
+            },
+            "StatementIndex": 622
+          },
+          {
+            "Inst": "Let",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "String",
+                "PinSubCategory": "String"
+              },
+              "VariableName": "CallFunc_Concat_StrStr_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "Concat_StrStr",
+              "ContextClass": "/Script/Engine.KismetStringLibrary",
+              "Parameters": [
+                {
+                  "Inst": "StringConst",
+                  "Value": "open "
+                },
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "String",
+                    "PinSubCategory": "String"
+                  },
+                  "VariableName": "CallFunc_Conv_TextToString_ReturnValue"
+                }
+              ]
+            },
+            "StatementIndex": 659
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "ExecuteConsoleCommand",
+            "ContextClass": "/Script/Engine.KismetSystemLibrary",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              },
+              {
+                "Inst": "LocalVariable",
+                "VariableType": {
+                  "PinCategory": "String",
+                  "PinSubCategory": "String"
+                },
+                "VariableName": "CallFunc_Concat_StrStr_ReturnValue"
+              },
+              {
+                "Inst": "NoObject"
+              }
+            ],
+            "StatementIndex": 703
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 724
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_UnlockAllWeapons",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 725
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 736
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_ResetEquippedUpgrades",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 737
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 748
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Campaign_Advance",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 749
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 760
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_UnlockAllUpgrades",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 761
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 772
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Schematic_UnlockAll",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 773
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 784
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Schematic_ForgeAll",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 785
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 796
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Schematic_ResetAll",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 797
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 808
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Schematic_GiveRandom",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 809
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 820
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_ForceTreasure",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 821
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 832
+          },
+          {
+            "Inst": "LetBool",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "CallFunc_IsServer_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "IsServer",
+              "ContextClass": "/Script/Engine.KismetSystemLibrary",
+              "Parameters": [
+                {
+                  "Inst": "Self"
+                }
+              ]
+            },
+            "StatementIndex": 833
+          },
+          {
+            "Inst": "LetObj",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.FSDGameInstance"
+              },
+              "VariableName": "CallFunc_GetFSDGameInstance_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "GetFSDGameInstance",
+              "ContextClass": "/Script/FSD.GameFunctionLibrary",
+              "Parameters": [
+                {
+                  "Inst": "Self"
+                }
+              ]
+            },
+            "StatementIndex": 854
+          },
+          {
+            "Inst": "LetObj",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.GeneratedMission"
+              },
+              "VariableName": "CallFunc_GetGeneratedMission_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "Context",
+              "Context": {
+                "Inst": "LocalVariable",
+                "VariableType": {
+                  "PinCategory": "Object",
+                  "PinSubCategory": "Object",
+                  "PinSubCategoryObject": "/Script/FSD.FSDGameInstance"
+                },
+                "VariableName": "CallFunc_GetFSDGameInstance_ReturnValue"
+              },
+              "SkipOffsetForNull": 10,
+              "RValuePropertyType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Script/FSD.GeneratedMission"
+              },
+              "RValuePropertyName": "CallFunc_GetGeneratedMission_ReturnValue",
+              "Expression": {
+                "Inst": "FinalFunction",
+                "Function": "GetGeneratedMission",
+                "Parameters": []
+              }
+            },
+            "StatementIndex": 875
+          },
+          {
+            "Inst": "LetBool",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "CallFunc_IsValid_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "IsValid",
+              "ContextClass": "/Script/Engine.KismetSystemLibrary",
+              "Parameters": [
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "Object",
+                    "PinSubCategory": "Object",
+                    "PinSubCategoryObject": "/Script/FSD.GeneratedMission"
+                  },
+                  "VariableName": "CallFunc_GetGeneratedMission_ReturnValue"
+                }
+              ]
+            },
+            "StatementIndex": 917
+          },
+          {
+            "Inst": "LetBool",
+            "Variable": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "CallFunc_BooleanAND_ReturnValue"
+            },
+            "Expression": {
+              "Inst": "CallMath",
+              "Function": "BooleanAND",
+              "ContextClass": "/Script/Engine.KismetMathLibrary",
+              "Parameters": [
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "bool",
+                    "PinSubCategory": "bool"
+                  },
+                  "VariableName": "CallFunc_IsServer_ReturnValue"
+                },
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "bool",
+                    "PinSubCategory": "bool"
+                  },
+                  "VariableName": "CallFunc_IsValid_ReturnValue"
+                }
+              ]
+            },
+            "StatementIndex": 946
+          },
+          {
+            "Inst": "PopExecutionFlowIfNot",
+            "Condition": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "bool",
+                "PinSubCategory": "bool"
+              },
+              "VariableName": "CallFunc_BooleanAND_ReturnValue"
+            },
+            "StatementIndex": 984
+          },
+          {
+            "Inst": "Context",
+            "Context": {
+              "Inst": "ObjectConst",
+              "Object": "/Game/Game/LIB_Game_SpaceRig.Default__LIB_Game_SpaceRig_C"
+            },
+            "SkipOffsetForNull": 24,
+            "Expression": {
+              "Inst": "LocalVirtualFunction",
+              "FunctionName": "GetSRGameState",
+              "Parameters": [
+                {
+                  "Inst": "Self"
+                },
+                {
+                  "Inst": "LocalVariable",
+                  "VariableType": {
+                    "PinCategory": "Object",
+                    "PinSubCategory": "Object",
+                    "PinSubCategoryObject": "/Game/Game/SpaceRig/BP_GameState_SpaceRig.BP_GameState_SpaceRig_C"
+                  },
+                  "VariableName": "CallFunc_GetSRGameState_gameState"
+                }
+              ]
+            },
+            "StatementIndex": 994
+          },
+          {
+            "Inst": "Context",
+            "Context": {
+              "Inst": "LocalVariable",
+              "VariableType": {
+                "PinCategory": "Object",
+                "PinSubCategory": "Object",
+                "PinSubCategoryObject": "/Game/Game/SpaceRig/BP_GameState_SpaceRig.BP_GameState_SpaceRig_C"
+              },
+              "VariableName": "CallFunc_GetSRGameState_gameState"
+            },
+            "SkipOffsetForNull": 14,
+            "Expression": {
+              "Inst": "VirtualFunction",
+              "Function": "CountDownCompleted",
+              "Parameters": []
+            },
+            "StatementIndex": 1040
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1076
+          },
+          {
+            "Inst": "Jump",
+            "Offset": 340,
+            "StatementIndex": 1077
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_PickAxeVanity_UnlockAll",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 1082
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1093
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_PickAxeVanity_ResetAll",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 1094
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1105
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_ForceLostPack",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 1106
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1117
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_MinersManual_ShowAll",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 1118
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1129
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_DeepDives_Refresh",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 1130
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1141
+          },
+          {
+            "Inst": "CallMath",
+            "Function": "Cheat_Campaign_Complete",
+            "ContextClass": "/Script/FSD.FSDCheatManager",
+            "Parameters": [
+              {
+                "Inst": "Self"
+              }
+            ],
+            "StatementIndex": 1142
+          },
+          {
+            "Inst": "PopExecutionFlow",
+            "StatementIndex": 1153
+          },
+          {
+            "Inst": "Jump",
+            "Offset": 334,
+            "StatementIndex": 1154
+          },
+          {
+            "Inst": "Return",
+            "Expression": {
+              "Inst": "Nothing"
+            },
+            "StatementIndex": 1159
+          },
+          {
+            "Inst": "EndOfScript",
+            "StatementIndex": 1161
+          }
+        ],
+        "FunctionFlags": "8421377"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "StructProperty",
+        "ObjectName": "UberGraphFrame",
+        "ArrayDim": 1,
+        "PropertyFlags": "2105344",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "Struct": 123
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "LookingForServers",
+        "ArrayDim": 1,
+        "PropertyFlags": "2147491860",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 41
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_AdvanceCampaign",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_CompleteCampaign",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_Connect",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ForceCrates",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ForceLostPack",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ForgeSchematics",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_GivePickaxeVanity",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_GiveRandomSchematic",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_GiveSchematics",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_Menu_LargeWindowWithHeader",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 141
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ResetPickaxeVanity",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ResetSchematics",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ResetUpgrades",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_RotateDeepDive",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_RotateMissions",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_ShowAllCreatures",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_StartMission",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_UnlockAllUpgrades",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Basic_UnlockAllWeapons",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Button_Credits",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Button_CustomMission",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Button_Perks",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Button_Resources",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "Button_XP",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 140
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "ConnectString",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 32
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "MENU_SpaceRigTemplate",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 145
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "UI_ForceOtherSpecialEvent",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 143
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "UI_ForceSeasonEvent",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 144
+      },
+      {
+        "FieldKind": "Property",
+        "ObjectClass": "ObjectProperty",
+        "ObjectName": "UI_ForceSpecialEvent",
+        "ArrayDim": 1,
+        "PropertyFlags": "562952101429260",
+        "RepNotifyFunc": "None",
+        "BlueprintReplicationCondition": 0,
+        "PropertyClass": 142
+      }
+    ],
+    "ClassFlags": "10754064",
+    "ClassWithin": 12,
+    "ClassConfigName": "Engine",
+    "Interfaces": [],
+    "ClassDefaultObject": 150,
+    "AssetObjectData": {
+      "WidgetTree": 232,
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        231
+      ],
+      "DynamicBindingObjects": [
+        181
+      ],
+      "SimpleConstructionScript": -1,
+      "$ReferencedObjects": [
+        232,
+        231,
+        181
+      ]
+    },
+    "GeneratedVariableNames": [
+      "MENU_SpaceRigTemplate",
+      "LookingForServers"
+    ]
+  },
+  "ObjectHierarchy": [
+    {
+      "ObjectIndex": 0,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "AttackerManagerComponent",
+      "Outer": 7,
+      "ObjectName": "AttackerManager"
+    },
+    {
+      "ObjectIndex": 1,
+      "Type": "Import",
+      "ClassPackage": "/Game/UI/Art/WidgetParts/Basic_ButtonScalable2",
+      "ClassName": "Basic_ButtonScalable2_C",
+      "Outer": 108,
+      "ObjectName": "Default__Basic_ButtonScalable2_C"
+    },
+    {
+      "ObjectIndex": 2,
+      "Type": "Import",
+      "ClassPackage": "/Game/UI/Art/WidgetParts/Basic_Menu_LargeWindowWithHeader",
+      "ClassName": "Basic_Menu_LargeWindowWithHeader_C",
+      "Outer": 109,
+      "ObjectName": "Default__Basic_Menu_LargeWindowWithHeader_C"
+    },
+    {
+      "ObjectIndex": 3,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "Outer": 106,
+      "ObjectName": "LIB_Game_SpaceRig_C"
+    },
+    {
+      "ObjectIndex": 4,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "Outer": 107,
+      "ObjectName": "BP_GameState_SpaceRig_C"
+    },
+    {
+      "ObjectIndex": 5,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "Border",
+      "Outer": 119,
+      "ObjectName": "Default__Border"
+    },
+    {
+      "ObjectIndex": 6,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "BorderSlot",
+      "Outer": 119,
+      "ObjectName": "Default__BorderSlot"
+    },
+    {
+      "ObjectIndex": 7,
+      "Type": "Import",
+      "ClassPackage": "/Game/Game/SpaceRig/BP_GameState_SpaceRig",
+      "ClassName": "BP_GameState_SpaceRig_C",
+      "Outer": 107,
+      "ObjectName": "Default__BP_GameState_SpaceRig_C"
+    },
+    {
+      "ObjectIndex": 8,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "CanvasPanel",
+      "Outer": 119,
+      "ObjectName": "Default__CanvasPanel"
+    },
+    {
+      "ObjectIndex": 9,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "CanvasPanelSlot",
+      "Outer": 119,
+      "ObjectName": "Default__CanvasPanelSlot"
+    },
+    {
+      "ObjectIndex": 10,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 114,
+      "ObjectName": "Class"
+    },
+    {
+      "ObjectIndex": 11,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 114,
+      "ObjectName": "Function"
+    },
+    {
+      "ObjectIndex": 12,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 114,
+      "ObjectName": "Object"
+    },
+    {
+      "ObjectIndex": 13,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 115,
+      "ObjectName": "ComponentDelegateBinding"
+    },
+    {
+      "ObjectIndex": 14,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 115,
+      "ObjectName": "GameplayStatics"
+    },
+    {
+      "ObjectIndex": 15,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 115,
+      "ObjectName": "KismetMathLibrary"
+    },
+    {
+      "ObjectIndex": 16,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 115,
+      "ObjectName": "KismetStringLibrary"
+    },
+    {
+      "ObjectIndex": 17,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 115,
+      "ObjectName": "KismetSystemLibrary"
+    },
+    {
+      "ObjectIndex": 18,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 115,
+      "ObjectName": "KismetTextLibrary"
+    },
+    {
+      "ObjectIndex": 19,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "FSDCheatManager"
+    },
+    {
+      "ObjectIndex": 20,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "FSDGameInstance"
+    },
+    {
+      "ObjectIndex": 21,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "GameFunctionLibrary"
+    },
+    {
+      "ObjectIndex": 22,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "GeneratedMission"
+    },
+    {
+      "ObjectIndex": 23,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "InputFunctionLibrary"
+    },
+    {
+      "ObjectIndex": 24,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "WindowManager"
+    },
+    {
+      "ObjectIndex": 25,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 116,
+      "ObjectName": "WindowWidget"
+    },
+    {
+      "ObjectIndex": 26,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 117,
+      "ObjectName": "MovieScene"
+    },
+    {
+      "ObjectIndex": 27,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 117,
+      "ObjectName": "MovieSceneCompiledData"
+    },
+    {
+      "ObjectIndex": 28,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "Border"
+    },
+    {
+      "ObjectIndex": 29,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "BorderSlot"
+    },
+    {
+      "ObjectIndex": 30,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "CanvasPanel"
+    },
+    {
+      "ObjectIndex": 31,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "CanvasPanelSlot"
+    },
+    {
+      "ObjectIndex": 32,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "EditableTextBox"
+    },
+    {
+      "ObjectIndex": 33,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "HorizontalBox"
+    },
+    {
+      "ObjectIndex": 34,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "HorizontalBoxSlot"
+    },
+    {
+      "ObjectIndex": 35,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "Overlay"
+    },
+    {
+      "ObjectIndex": 36,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "OverlaySlot"
+    },
+    {
+      "ObjectIndex": 37,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "TextBlock"
+    },
+    {
+      "ObjectIndex": 38,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "UserWidget"
+    },
+    {
+      "ObjectIndex": 39,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "VerticalBox"
+    },
+    {
+      "ObjectIndex": 40,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "VerticalBoxSlot"
+    },
+    {
+      "ObjectIndex": 41,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "WidgetAnimation"
+    },
+    {
+      "ObjectIndex": 42,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "WidgetBlueprintGeneratedClass"
+    },
+    {
+      "ObjectIndex": 43,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "WidgetBlueprintLibrary"
+    },
+    {
+      "ObjectIndex": 44,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "Outer": 119,
+      "ObjectName": "WidgetTree"
+    },
+    {
+      "ObjectIndex": 45,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "ComponentDelegateBinding",
+      "Outer": 115,
+      "ObjectName": "Default__ComponentDelegateBinding"
+    },
+    {
+      "ObjectIndex": 46,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "DelegateFunction",
+      "Outer": 17,
+      "ObjectName": "OnAssetClassLoaded__DelegateSignature"
+    },
+    {
+      "ObjectIndex": 47,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "DifficultyManager",
+      "Outer": 7,
+      "ObjectName": "DifficultyManager"
+    },
+    {
+      "ObjectIndex": 48,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "EditableTextBox",
+      "Outer": 119,
+      "ObjectName": "Default__EditableTextBox"
+    },
+    {
+      "ObjectIndex": 49,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 103,
+      "ObjectName": "Carbon"
+    },
+    {
+      "ObjectIndex": 50,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Font",
+      "Outer": 104,
+      "ObjectName": "Rift_Soft"
+    },
+    {
+      "ObjectIndex": 51,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 114,
+      "ObjectName": "Default__Function"
+    },
+    {
+      "ObjectIndex": 52,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 14,
+      "ObjectName": "PlaySound2D"
+    },
+    {
+      "ObjectIndex": 53,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 15,
+      "ObjectName": "BooleanAND"
+    },
+    {
+      "ObjectIndex": 54,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 16,
+      "ObjectName": "Concat_StrStr"
+    },
+    {
+      "ObjectIndex": 55,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 17,
+      "ObjectName": "ExecuteConsoleCommand"
+    },
+    {
+      "ObjectIndex": 56,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 17,
+      "ObjectName": "IsServer"
+    },
+    {
+      "ObjectIndex": 57,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 17,
+      "ObjectName": "IsValid"
+    },
+    {
+      "ObjectIndex": 58,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 17,
+      "ObjectName": "LoadAssetClass"
+    },
+    {
+      "ObjectIndex": 59,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 17,
+      "ObjectName": "MakeLiteralName"
+    },
+    {
+      "ObjectIndex": 60,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 18,
+      "ObjectName": "Conv_TextToString"
+    },
+    {
+      "ObjectIndex": 61,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_AddCredits"
+    },
+    {
+      "ObjectIndex": 62,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_AddPerkPoints"
+    },
+    {
+      "ObjectIndex": 63,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_AddXP"
+    },
+    {
+      "ObjectIndex": 64,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Campaign_Advance"
+    },
+    {
+      "ObjectIndex": 65,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Campaign_Complete"
+    },
+    {
+      "ObjectIndex": 66,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_DeepDives_Refresh"
+    },
+    {
+      "ObjectIndex": 67,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_ForceLostPack"
+    },
+    {
+      "ObjectIndex": 68,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_ForceTreasure"
+    },
+    {
+      "ObjectIndex": 69,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_GenerateNewMissionSeed"
+    },
+    {
+      "ObjectIndex": 70,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_MinersManual_ShowAll"
+    },
+    {
+      "ObjectIndex": 71,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_PickAxeVanity_ResetAll"
+    },
+    {
+      "ObjectIndex": 72,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_PickAxeVanity_UnlockAll"
+    },
+    {
+      "ObjectIndex": 73,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_ResetEquippedUpgrades"
+    },
+    {
+      "ObjectIndex": 74,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Resources"
+    },
+    {
+      "ObjectIndex": 75,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Schematic_ForgeAll"
+    },
+    {
+      "ObjectIndex": 76,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Schematic_GiveRandom"
+    },
+    {
+      "ObjectIndex": 77,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Schematic_ResetAll"
+    },
+    {
+      "ObjectIndex": 78,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_Schematic_UnlockAll"
+    },
+    {
+      "ObjectIndex": 79,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_UnlockAllUpgrades"
+    },
+    {
+      "ObjectIndex": 80,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 19,
+      "ObjectName": "Cheat_UnlockAllWeapons"
+    },
+    {
+      "ObjectIndex": 81,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 20,
+      "ObjectName": "GetGeneratedMission"
+    },
+    {
+      "ObjectIndex": 82,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 21,
+      "ObjectName": "GetFSDGameInstance"
+    },
+    {
+      "ObjectIndex": 83,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 21,
+      "ObjectName": "GetWindowManager"
+    },
+    {
+      "ObjectIndex": 84,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 23,
+      "ObjectName": "IsKeyEventAction"
+    },
+    {
+      "ObjectIndex": 85,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 24,
+      "ObjectName": "CloseTopWindow"
+    },
+    {
+      "ObjectIndex": 86,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 24,
+      "ObjectName": "OpenWindowFromClass"
+    },
+    {
+      "ObjectIndex": 87,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 25,
+      "ObjectName": "OnShown"
+    },
+    {
+      "ObjectIndex": 88,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 32,
+      "ObjectName": "GetText"
+    },
+    {
+      "ObjectIndex": 89,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 38,
+      "ObjectName": "OnKeyUp"
+    },
+    {
+      "ObjectIndex": 90,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 38,
+      "ObjectName": "PreConstruct"
+    },
+    {
+      "ObjectIndex": 91,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 43,
+      "ObjectName": "Handled"
+    },
+    {
+      "ObjectIndex": 92,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "Outer": 43,
+      "ObjectName": "Unhandled"
+    },
+    {
+      "ObjectIndex": 93,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "GameplayStatics",
+      "Outer": 115,
+      "ObjectName": "Default__GameplayStatics"
+    },
+    {
+      "ObjectIndex": 94,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "GemProximityTracker",
+      "Outer": 7,
+      "ObjectName": "GemProximityTracker"
+    },
+    {
+      "ObjectIndex": 95,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "HorizontalBox",
+      "Outer": 119,
+      "ObjectName": "Default__HorizontalBox"
+    },
+    {
+      "ObjectIndex": 96,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "HorizontalBoxSlot",
+      "Outer": 119,
+      "ObjectName": "Default__HorizontalBoxSlot"
+    },
+    {
+      "ObjectIndex": 97,
+      "Type": "Import",
+      "ClassPackage": "/Game/Game/LIB_Game_SpaceRig",
+      "ClassName": "LIB_Game_SpaceRig_C",
+      "Outer": 106,
+      "ObjectName": "Default__LIB_Game_SpaceRig_C"
+    },
+    {
+      "ObjectIndex": 98,
+      "Type": "Import",
+      "ClassPackage": "/Game/UI/Menu_TopBar/MENU_SpaceRigTemplate",
+      "ClassName": "MENU_SpaceRigTemplate_C",
+      "Outer": 113,
+      "ObjectName": "Default__MENU_SpaceRigTemplate_C"
+    },
+    {
+      "ObjectIndex": 99,
+      "Type": "Import",
+      "ClassPackage": "/Script/MovieScene",
+      "ClassName": "MovieScene",
+      "Outer": 117,
+      "ObjectName": "Default__MovieScene"
+    },
+    {
+      "ObjectIndex": 100,
+      "Type": "Import",
+      "ClassPackage": "/Script/MovieScene",
+      "ClassName": "MovieSceneCompiledData",
+      "Outer": 117,
+      "ObjectName": "Default__MovieSceneCompiledData"
+    },
+    {
+      "ObjectIndex": 101,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "Overlay",
+      "Outer": 119,
+      "ObjectName": "Default__Overlay"
+    },
+    {
+      "ObjectIndex": 102,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "OverlaySlot",
+      "Outer": 119,
+      "ObjectName": "Default__OverlaySlot"
+    },
+    {
+      "ObjectIndex": 103,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Carbon"
+    },
+    {
+      "ObjectIndex": 104,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Art/Fonts/Rift_Soft"
+    },
+    {
+      "ObjectIndex": 105,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Audio/SFX/UI/Menu/Button_Click_keyboard_01_Cue"
+    },
+    {
+      "ObjectIndex": 106,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Game/LIB_Game_SpaceRig"
+    },
+    {
+      "ObjectIndex": 107,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/Game/SpaceRig/BP_GameState_SpaceRig"
+    },
+    {
+      "ObjectIndex": 108,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/UI/Art/WidgetParts/Basic_ButtonScalable2"
+    },
+    {
+      "ObjectIndex": 109,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/UI/Art/WidgetParts/Basic_Menu_LargeWindowWithHeader"
+    },
+    {
+      "ObjectIndex": 110,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/UI/Menu_Cheats/CheatConsole/UI_ForceMachineEvent"
+    },
+    {
+      "ObjectIndex": 111,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/UI/Menu_Cheats/CheatConsole/UI_ForceOtherSpecialEvent"
+    },
+    {
+      "ObjectIndex": 112,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/UI/Menu_Cheats/CheatConsole/UI_ForceSeasonEvent"
+    },
+    {
+      "ObjectIndex": 113,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/UI/Menu_TopBar/MENU_SpaceRigTemplate"
+    },
+    {
+      "ObjectIndex": 114,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/CoreUObject"
+    },
+    {
+      "ObjectIndex": 115,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine"
+    },
+    {
+      "ObjectIndex": 116,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/FSD"
+    },
+    {
+      "ObjectIndex": 117,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/MovieScene"
+    },
+    {
+      "ObjectIndex": 118,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/SlateCore"
+    },
+    {
+      "ObjectIndex": 119,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/UMG"
+    },
+    {
+      "ObjectIndex": 120,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "PlayerProximityTracker",
+      "Outer": 7,
+      "ObjectName": "ProximityTracker"
+    },
+    {
+      "ObjectIndex": 121,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "Outer": 4,
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE"
+    },
+    {
+      "ObjectIndex": 122,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "Outer": 115,
+      "ObjectName": "LatentActionInfo"
+    },
+    {
+      "ObjectIndex": 123,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "Outer": 115,
+      "ObjectName": "PointerToUberGraphFrame"
+    },
+    {
+      "ObjectIndex": 124,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "Outer": 118,
+      "ObjectName": "Geometry"
+    },
+    {
+      "ObjectIndex": 125,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "Outer": 118,
+      "ObjectName": "KeyEvent"
+    },
+    {
+      "ObjectIndex": 126,
+      "Type": "Import",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "Outer": 119,
+      "ObjectName": "EventReply"
+    },
+    {
+      "ObjectIndex": 127,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "SeasonReplicatorComponent",
+      "Outer": 7,
+      "ObjectName": "SeasonReplicator"
+    },
+    {
+      "ObjectIndex": 128,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "ShowroomManager",
+      "Outer": 7,
+      "ObjectName": "ShowroomManager"
+    },
+    {
+      "ObjectIndex": 129,
+      "Type": "Import",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SoundCue",
+      "Outer": 105,
+      "ObjectName": "Button_Click_keyboard_01_Cue"
+    },
+    {
+      "ObjectIndex": 130,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "SoundMixManagerComponent",
+      "Outer": 7,
+      "ObjectName": "SoundMixManager"
+    },
+    {
+      "ObjectIndex": 131,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "SpawnEffectsComponent",
+      "Outer": 7,
+      "ObjectName": "SpawnEffects"
+    },
+    {
+      "ObjectIndex": 132,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "TeamResourcesComponent",
+      "Outer": 7,
+      "ObjectName": "TeamResources"
+    },
+    {
+      "ObjectIndex": 133,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "TextBlock",
+      "Outer": 119,
+      "ObjectName": "Default__TextBlock"
+    },
+    {
+      "ObjectIndex": 134,
+      "Type": "Import",
+      "ClassPackage": "/Game/UI/Menu_Cheats/CheatConsole/UI_ForceMachineEvent",
+      "ClassName": "UI_ForceMachineEvent_C",
+      "Outer": 110,
+      "ObjectName": "Default__UI_ForceMachineEvent_C"
+    },
+    {
+      "ObjectIndex": 135,
+      "Type": "Import",
+      "ClassPackage": "/Game/UI/Menu_Cheats/CheatConsole/UI_ForceOtherSpecialEvent",
+      "ClassName": "UI_ForceOtherSpecialEvent_C",
+      "Outer": 111,
+      "ObjectName": "Default__UI_ForceOtherSpecialEvent_C"
+    },
+    {
+      "ObjectIndex": 136,
+      "Type": "Import",
+      "ClassPackage": "/Game/UI/Menu_Cheats/CheatConsole/UI_ForceSeasonEvent",
+      "ClassName": "UI_ForceSeasonEvent_C",
+      "Outer": 112,
+      "ObjectName": "Default__UI_ForceSeasonEvent_C"
+    },
+    {
+      "ObjectIndex": 137,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "VerticalBox",
+      "Outer": 119,
+      "ObjectName": "Default__VerticalBox"
+    },
+    {
+      "ObjectIndex": 138,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "VerticalBoxSlot",
+      "Outer": 119,
+      "ObjectName": "Default__VerticalBoxSlot"
+    },
+    {
+      "ObjectIndex": 139,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetAnimation",
+      "Outer": 119,
+      "ObjectName": "Default__WidgetAnimation"
+    },
+    {
+      "ObjectIndex": 140,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 108,
+      "ObjectName": "Basic_ButtonScalable2_C"
+    },
+    {
+      "ObjectIndex": 141,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 109,
+      "ObjectName": "Basic_Menu_LargeWindowWithHeader_C"
+    },
+    {
+      "ObjectIndex": 142,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 110,
+      "ObjectName": "UI_ForceMachineEvent_C"
+    },
+    {
+      "ObjectIndex": 143,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 111,
+      "ObjectName": "UI_ForceOtherSpecialEvent_C"
+    },
+    {
+      "ObjectIndex": 144,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 112,
+      "ObjectName": "UI_ForceSeasonEvent_C"
+    },
+    {
+      "ObjectIndex": 145,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 113,
+      "ObjectName": "MENU_SpaceRigTemplate_C"
+    },
+    {
+      "ObjectIndex": 146,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "Outer": 119,
+      "ObjectName": "Default__WidgetBlueprintGeneratedClass"
+    },
+    {
+      "ObjectIndex": 147,
+      "Type": "Import",
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetTree",
+      "Outer": 119,
+      "ObjectName": "Default__WidgetTree"
+    },
+    {
+      "ObjectIndex": 148,
+      "Type": "Import",
+      "ClassPackage": "/Script/FSD",
+      "ClassName": "WindowWidget",
+      "Outer": 116,
+      "ObjectName": "Default__WindowWidget"
+    },
+    {
+      "ObjectIndex": 149,
+      "Type": "Export",
+      "ObjectMark": "$AssetObject$"
+    },
+    {
+      "ObjectIndex": 150,
+      "Type": "Export",
+      "ObjectClass": 149,
+      "Outer": -1,
+      "ObjectName": "Default___MENU_CheatConsole_C",
+      "ObjectFlags": 49,
+      "Properties": {
+        "UberGraphFrame": {},
+        "bIsFocusable": true,
+        "$ReferencedObjects": []
+      }
+    },
+    {
+      "ObjectIndex": 151,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_AdvanceCampaign",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Advance Assignment\")",
+        "Slot": 212,
+        "$ReferencedObjects": [
+          212
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 152,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_CompleteCampaign",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Complete Assignment\")",
+        "Slot": 205,
+        "$ReferencedObjects": [
+          205
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 153,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_Connect",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Connect\")",
+        "Slot": 213,
+        "$ReferencedObjects": [
+          213
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 154,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ForceCrates",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Force Crates\")",
+        "Slot": 227,
+        "$ReferencedObjects": [
+          227
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 155,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ForceLostPack",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Force Lost Pack\")",
+        "Slot": 228,
+        "$ReferencedObjects": [
+          228
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 156,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ForgeSchematics",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Forge All Matrix Cores\")",
+        "Slot": 216,
+        "$ReferencedObjects": [
+          216
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 157,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_GivePickaxeVanity",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Give All Pickaxe Vanity\")",
+        "Slot": 220,
+        "$ReferencedObjects": [
+          220
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 158,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_GiveRandomSchematic",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Give Random Matrix Core\")",
+        "Slot": 219,
+        "$ReferencedObjects": [
+          219
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 159,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_GiveSchematics",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Give All Matrix Cores\")",
+        "Slot": 215,
+        "$ReferencedObjects": [
+          215
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 160,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ResetPickaxeVanity",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Reset Pickaxe Vanity\")",
+        "Slot": 221,
+        "$ReferencedObjects": [
+          221
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 161,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ResetSchematics",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Reset Matrix Cores\")",
+        "Slot": 218,
+        "$ReferencedObjects": [
+          218
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 162,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ResetUpgrades",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Reset Upgrades\")",
+        "Slot": 211,
+        "$ReferencedObjects": [
+          211
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 163,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_RotateDeepDive",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Rotate Deep Dive\")",
+        "Slot": 225,
+        "$ReferencedObjects": [
+          225
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 164,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_RotateMissions",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Rotate Missions\")",
+        "Slot": 226,
+        "$ReferencedObjects": [
+          226
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 165,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_ShowAllCreatures",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Show All Creatures In MinersManual\")",
+        "Slot": 217,
+        "$ReferencedObjects": [
+          217
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 166,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_StartMission",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Start Mission\")",
+        "Slot": 224,
+        "$ReferencedObjects": [
+          224
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 167,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_UnlockAllUpgrades",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Unlock All Upgrades\")",
+        "Slot": 204,
+        "$ReferencedObjects": [
+          204
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 168,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Basic_UnlockAllWeapons",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Unlock All Weapons\")",
+        "Slot": 210,
+        "$ReferencedObjects": [
+          210
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 169,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Button_Credits",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Add 10000 Credits\")",
+        "Slot": 207,
+        "$ReferencedObjects": [
+          207
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 170,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Button_CustomMission",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "FormattedText": "INVTEXT(\"Custom Mission\")",
+        "Slot": 222,
+        "$ReferencedObjects": [
+          222
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 171,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Button_Perks",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Add 50 Perk Points\")",
+        "Slot": 209,
+        "$ReferencedObjects": [
+          209
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 172,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Button_Resources",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Add 150 Resources\")",
+        "Slot": 208,
+        "$ReferencedObjects": [
+          208
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 173,
+      "Type": "Export",
+      "ObjectClass": 140,
+      "Outer": 232,
+      "ObjectName": "Button_XP",
+      "ObjectFlags": 0,
+      "Properties": {
+        "Width (minimum)": 400.0,
+        "Height (minimum)": 35.0,
+        "FormattedText": "INVTEXT(\"Add 10000 XP\")",
+        "Slot": 206,
+        "$ReferencedObjects": [
+          206
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 174,
+      "Type": "Export",
+      "ObjectClass": 141,
+      "Outer": 232,
+      "ObjectName": "Basic_Menu_LargeWindowWithHeader",
+      "ObjectFlags": 8,
+      "Properties": {
+        "HeaderText": "NSLOCTEXT(\"\" , \"DE7E0EFF450B8CE72F02718FFEBA1B19\" , \"Cheats\")",
+        "NamedSlotBindings": [
+          {
+            "Name": "PutStuffHere",
+            "Content": 193
+          }
+        ],
+        "Slot": 179,
+        "$ReferencedObjects": [
+          193,
+          179
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 175,
+      "Type": "Export",
+      "ObjectClass": 28,
+      "Outer": 232,
+      "ObjectName": "Border_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "BrushColor": {
+          "R": 0.036458,
+          "G": 0.030843,
+          "B": 0.024341,
+          "A": 1.0
+        },
+        "Slots": [
+          176
+        ],
+        "Slot": 203,
+        "$ReferencedObjects": [
+          176,
+          203
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 176,
+      "Type": "Export",
+      "ObjectClass": 29,
+      "Outer": 175,
+      "ObjectName": "BorderSlot_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "Parent": 175,
+        "Content": 200,
+        "$ReferencedObjects": [
+          175,
+          200
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 177,
+      "Type": "Export",
+      "ObjectClass": 30,
+      "Outer": 232,
+      "ObjectName": "CanvasPanel_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          179
+        ],
+        "$ReferencedObjects": [
+          179
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 178,
+      "Type": "Export",
+      "ObjectClass": 30,
+      "Outer": 232,
+      "ObjectName": "CanvasPanel_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          180
+        ],
+        "$ReferencedObjects": [
+          180
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 179,
+      "Type": "Export",
+      "ObjectClass": 31,
+      "Outer": 177,
+      "ObjectName": "CanvasPanelSlot_8",
+      "ObjectFlags": 8,
+      "Properties": {
+        "LayoutData": {
+          "Offsets": {
+            "Right": 600.0,
+            "Bottom": 820.0
+          },
+          "Anchors": {
+            "Minimum": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "Maximum": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          },
+          "Alignment": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "bAutoSize": true,
+        "Parent": 177,
+        "Content": 174,
+        "$ReferencedObjects": [
+          177,
+          174
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 180,
+      "Type": "Export",
+      "ObjectClass": 31,
+      "Outer": 178,
+      "ObjectName": "CanvasPanelSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "LayoutData": {
+          "Offsets": {
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "Anchors": {
+            "Maximum": {
+              "X": 1.0,
+              "Y": 1.0
+            }
+          }
+        },
+        "bAutoSize": true,
+        "Parent": 178,
+        "Content": 190,
+        "$ReferencedObjects": [
+          178,
+          190
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 181,
+      "Type": "Export",
+      "ObjectClass": 13,
+      "Outer": 149,
+      "ObjectName": "ComponentDelegateBinding_0",
+      "ObjectFlags": 0,
+      "Properties": {
+        "ComponentDelegateBindings": [
+          {
+            "ComponentPropertyName": "Button_CustomMission",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Button_CustomMission_K2Node_ComponentBoundEvent_14_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_CompleteCampaign",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_CompleteCampaign_K2Node_ComponentBoundEvent_13_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_RotateDeepDive",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_RotateDeepDive_K2Node_ComponentBoundEvent_12_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ShowAllCreatures",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ShowAllCreatures_K2Node_ComponentBoundEvent_11_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ForceLostPack",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ForceLostPack_K2Node_ComponentBoundEvent_10_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ResetPickaxeVanity",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ResetPickaxeVanity_K2Node_ComponentBoundEvent_9_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_GivePickaxeVanity",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_GivePickaxeVanity_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_StartMission",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_StartMission_K2Node_ComponentBoundEvent_7_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ForceCrates",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ForceCrates_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_GiveRandomSchematic",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_GiveRandomSchematic_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ResetSchematics",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ResetSchematics_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ForgeSchematics",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ForgeSchematics_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_GiveSchematics",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_GiveSchematics_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_UnlockAllUpgrades",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_UnlockAllUpgrades_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_AdvanceCampaign",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_AdvanceCampaign_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_ResetUpgrades",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_ResetUpgrades_K2Node_ComponentBoundEvent_58_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_UnlockAllWeapons",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_UnlockAllWeapons_K2Node_ComponentBoundEvent_44_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_Connect",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_Connect_K2Node_ComponentBoundEvent_54_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Basic_RotateMissions",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Basic_RotateMissions_K2Node_ComponentBoundEvent_15_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Button_Perks",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Button_Perks_K2Node_ComponentBoundEvent_246_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Button_Resources",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Button_Resources_K2Node_ComponentBoundEvent_242_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Button_Credits",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Button_Credits_K2Node_ComponentBoundEvent_239_OnClicked__DelegateSignature"
+          },
+          {
+            "ComponentPropertyName": "Button_XP",
+            "DelegatePropertyName": "OnClicked",
+            "FunctionNameToBind": "BndEvt__Button_XP_K2Node_ComponentBoundEvent_238_OnClicked__DelegateSignature"
+          }
+        ],
+        "$ReferencedObjects": []
+      }
+    },
+    {
+      "ObjectIndex": 182,
+      "Type": "Export",
+      "ObjectClass": 32,
+      "Outer": 232,
+      "ObjectName": "ConnectString",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Text": "NSLOCTEXT(\"\" , \"60664282474CEC26855E92B5B2942BC8\" , \"192.168.0.2\")",
+        "WidgetStyle": {
+          "Font": {
+            "FontObject": 49,
+            "TypefaceFontName": "Condensed Normal",
+            "Size": 18
+          }
+        },
+        "Slot": 188,
+        "$ReferencedObjects": [
+          49,
+          188
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 183,
+      "Type": "Export",
+      "ObjectClass": 33,
+      "Outer": 232,
+      "ObjectName": "HorizontalBox_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          185,
+          186,
+          187
+        ],
+        "Slot": 194,
+        "$ReferencedObjects": [
+          185,
+          186,
+          187,
+          194
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 184,
+      "Type": "Export",
+      "ObjectClass": 33,
+      "Outer": 232,
+      "ObjectName": "HorizontalBox_3",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          189,
+          188
+        ],
+        "Slot": 214,
+        "$ReferencedObjects": [
+          189,
+          188,
+          214
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 185,
+      "Type": "Export",
+      "ObjectClass": 34,
+      "Outer": 183,
+      "ObjectName": "HorizontalBoxSlot_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Size": {
+          "SizeRule": "ESlateSizeRule::Fill"
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "VerticalAlignment": "VAlign_Center",
+        "Parent": 183,
+        "Content": 199,
+        "$ReferencedObjects": [
+          183,
+          199
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 186,
+      "Type": "Export",
+      "ObjectClass": 34,
+      "Outer": 183,
+      "ObjectName": "HorizontalBoxSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "HorizontalAlignment": "HAlign_Center",
+        "VerticalAlignment": "VAlign_Top",
+        "Parent": 183,
+        "Content": 201,
+        "$ReferencedObjects": [
+          183,
+          201
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 187,
+      "Type": "Export",
+      "ObjectClass": 34,
+      "Outer": 183,
+      "ObjectName": "HorizontalBoxSlot_2",
+      "ObjectFlags": 8,
+      "Properties": {
+        "HorizontalAlignment": "HAlign_Center",
+        "VerticalAlignment": "VAlign_Top",
+        "Parent": 183,
+        "Content": 202,
+        "$ReferencedObjects": [
+          183,
+          202
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 188,
+      "Type": "Export",
+      "ObjectClass": 34,
+      "Outer": 184,
+      "ObjectName": "HorizontalBoxSlot_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Size": {
+          "SizeRule": "ESlateSizeRule::Fill"
+        },
+        "Parent": 184,
+        "Content": 182,
+        "$ReferencedObjects": [
+          184,
+          182
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 189,
+      "Type": "Export",
+      "ObjectClass": 34,
+      "Outer": 184,
+      "ObjectName": "HorizontalBoxSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Parent": 184,
+        "Content": 195,
+        "$ReferencedObjects": [
+          184,
+          195
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 190,
+      "Type": "Export",
+      "ObjectClass": 145,
+      "Outer": 232,
+      "ObjectName": "MENU_SpaceRigTemplate",
+      "ObjectFlags": 8,
+      "Properties": {
+        "NamedSlotBindings": [
+          {
+            "Name": "MenuGoesHere",
+            "Content": 177
+          }
+        ],
+        "Slot": 180,
+        "$ReferencedObjects": [
+          177,
+          180
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 191,
+      "Type": "Export",
+      "ObjectClass": 26,
+      "Outer": 231,
+      "ObjectName": "LookingForServers",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Possessables": [
+          {
+            "Tags": [],
+            "Guid": {
+              "A": -524243092,
+              "B": 1245660944,
+              "C": -689699182,
+              "D": 1930065836
+            },
+            "Name": "TextBlock_3",
+            "PossessedObjectClass": 37,
+            "ParentGuid": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0
+            }
+          }
+        ],
+        "ObjectBindings": [
+          {
+            "ObjectGuid": {
+              "A": -524243092,
+              "B": 1245660944,
+              "C": -689699182,
+              "D": 1930065836
+            },
+            "BindingName": "TextBlock_3",
+            "Tracks": []
+          }
+        ],
+        "PlaybackRange": {
+          "LowerBound": {
+            "Type": "Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "Exclusive",
+            "Value": 60001
+          }
+        },
+        "DisplayRate": {
+          "Numerator": 20000,
+          "Denominator": 1000
+        },
+        "Signature": {
+          "A": 1950516948,
+          "B": 1204094445,
+          "C": 1065786777,
+          "D": 1025326229
+        },
+        "$ReferencedObjects": [
+          37
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 192,
+      "Type": "Export",
+      "ObjectClass": 27,
+      "Outer": 231,
+      "ObjectName": "CompiledData",
+      "ObjectFlags": 0,
+      "Properties": {
+        "CompiledSignature": {
+          "A": -1040396177,
+          "B": 1300276028,
+          "C": -768361085,
+          "D": -1814486977
+        },
+        "CompilerVersion": {
+          "A": 2102106121,
+          "B": 799820395,
+          "C": -1773219982,
+          "D": -668492040
+        },
+        "$ReferencedObjects": []
+      }
+    },
+    {
+      "ObjectIndex": 193,
+      "Type": "Export",
+      "ObjectClass": 35,
+      "Outer": 232,
+      "ObjectName": "Overlay_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          194
+        ],
+        "$ReferencedObjects": [
+          194
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 194,
+      "Type": "Export",
+      "ObjectClass": 36,
+      "Outer": 193,
+      "ObjectName": "OverlaySlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Top": 10.0,
+          "Bottom": 10.0
+        },
+        "HorizontalAlignment": "HAlign_Fill",
+        "VerticalAlignment": "VAlign_Fill",
+        "Parent": 193,
+        "Content": 183,
+        "$ReferencedObjects": [
+          193,
+          183
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 195,
+      "Type": "Export",
+      "ObjectClass": 37,
+      "Outer": 232,
+      "ObjectName": "TextBlock_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Text": "NSLOCTEXT(\"\" , \"9C6759FC4A62FB4E2C30C09C5208F52D\" , \"IP Address: \")",
+        "Font": {
+          "FontObject": 50,
+          "TypefaceFontName": "Rift Soft Bold",
+          "Size": 16
+        },
+        "Slot": 189,
+        "$ReferencedObjects": [
+          50,
+          189
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 196,
+      "Type": "Export",
+      "ObjectClass": 142,
+      "Outer": 232,
+      "ObjectName": "UI_ForceSpecialEvent",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slot": 229,
+        "$ReferencedObjects": [
+          229
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 197,
+      "Type": "Export",
+      "ObjectClass": 143,
+      "Outer": 232,
+      "ObjectName": "UI_ForceOtherSpecialEvent",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slot": 230,
+        "$ReferencedObjects": [
+          230
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 198,
+      "Type": "Export",
+      "ObjectClass": 144,
+      "Outer": 232,
+      "ObjectName": "UI_ForceSeasonEvent",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slot": 223,
+        "$ReferencedObjects": [
+          223
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 199,
+      "Type": "Export",
+      "ObjectClass": 39,
+      "Outer": 232,
+      "ObjectName": "VerticalBox_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          206,
+          207,
+          208,
+          209,
+          210,
+          204,
+          211,
+          212,
+          205,
+          203
+        ],
+        "Slot": 185,
+        "$ReferencedObjects": [
+          206,
+          207,
+          208,
+          209,
+          210,
+          204,
+          211,
+          212,
+          205,
+          203,
+          185
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 200,
+      "Type": "Export",
+      "ObjectClass": 39,
+      "Outer": 232,
+      "ObjectName": "VerticalBox_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          214,
+          213
+        ],
+        "Slot": 176,
+        "$ReferencedObjects": [
+          214,
+          213,
+          176
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 201,
+      "Type": "Export",
+      "ObjectClass": 39,
+      "Outer": 232,
+      "ObjectName": "VerticalBox_146",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          220,
+          221,
+          215,
+          216,
+          218,
+          219,
+          217
+        ],
+        "Slot": 186,
+        "$ReferencedObjects": [
+          220,
+          221,
+          215,
+          216,
+          218,
+          219,
+          217,
+          186
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 202,
+      "Type": "Export",
+      "ObjectClass": 39,
+      "Outer": 232,
+      "ObjectName": "VerticalBox_67",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Slots": [
+          224,
+          222,
+          226,
+          225,
+          227,
+          228,
+          229,
+          230,
+          223
+        ],
+        "Slot": 187,
+        "$ReferencedObjects": [
+          224,
+          222,
+          226,
+          225,
+          227,
+          228,
+          229,
+          230,
+          223,
+          187
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 203,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Left",
+        "Parent": 199,
+        "Content": 175,
+        "$ReferencedObjects": [
+          199,
+          175
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 204,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_10",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 167,
+        "$ReferencedObjects": [
+          199,
+          167
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 205,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_11",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 152,
+        "$ReferencedObjects": [
+          199,
+          152
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 206,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_3",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Size": {
+          "SizeRule": "ESlateSizeRule::Fill"
+        },
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 173,
+        "$ReferencedObjects": [
+          199,
+          173
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 207,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_4",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 169,
+        "$ReferencedObjects": [
+          199,
+          169
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 208,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_5",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 172,
+        "$ReferencedObjects": [
+          199,
+          172
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 209,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_6",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 171,
+        "$ReferencedObjects": [
+          199,
+          171
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 210,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_7",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 168,
+        "$ReferencedObjects": [
+          199,
+          168
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 211,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_8",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 162,
+        "$ReferencedObjects": [
+          199,
+          162
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 212,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 199,
+      "ObjectName": "VerticalBoxSlot_9",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 199,
+        "Content": 151,
+        "$ReferencedObjects": [
+          199,
+          151
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 213,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 200,
+      "ObjectName": "VerticalBoxSlot_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Parent": 200,
+        "Content": 153,
+        "$ReferencedObjects": [
+          200,
+          153
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 214,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 200,
+      "ObjectName": "VerticalBoxSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Bottom": 5.0
+        },
+        "Parent": 200,
+        "Content": 184,
+        "$ReferencedObjects": [
+          200,
+          184
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 215,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 159,
+        "$ReferencedObjects": [
+          201,
+          159
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 216,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 156,
+        "$ReferencedObjects": [
+          201,
+          156
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 217,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_11",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 165,
+        "$ReferencedObjects": [
+          201,
+          165
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 218,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_2",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 161,
+        "$ReferencedObjects": [
+          201,
+          161
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 219,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_3",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 158,
+        "$ReferencedObjects": [
+          201,
+          158
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 220,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_8",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 157,
+        "$ReferencedObjects": [
+          201,
+          157
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 221,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 201,
+      "ObjectName": "VerticalBoxSlot_9",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 201,
+        "Content": 160,
+        "$ReferencedObjects": [
+          201,
+          160
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 222,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_0",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Size": {
+          "SizeRule": "ESlateSizeRule::Fill"
+        },
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "VerticalAlignment": "VAlign_Top",
+        "Parent": 202,
+        "Content": 170,
+        "$ReferencedObjects": [
+          202,
+          170
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 223,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_1",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Parent": 202,
+        "Content": 198,
+        "$ReferencedObjects": [
+          202,
+          198
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 224,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_2",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 202,
+        "Content": 166,
+        "$ReferencedObjects": [
+          202,
+          166
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 225,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_3",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 202,
+        "Content": 163,
+        "$ReferencedObjects": [
+          202,
+          163
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 226,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_4",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 202,
+        "Content": 164,
+        "$ReferencedObjects": [
+          202,
+          164
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 227,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_5",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 202,
+        "Content": 154,
+        "$ReferencedObjects": [
+          202,
+          154
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 228,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_6",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Padding": {
+          "Left": 5.0,
+          "Top": 5.0,
+          "Right": 5.0,
+          "Bottom": 5.0
+        },
+        "HorizontalAlignment": "HAlign_Center",
+        "Parent": 202,
+        "Content": 155,
+        "$ReferencedObjects": [
+          202,
+          155
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 229,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_7",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Parent": 202,
+        "Content": 196,
+        "$ReferencedObjects": [
+          202,
+          196
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 230,
+      "Type": "Export",
+      "ObjectClass": 40,
+      "Outer": 202,
+      "ObjectName": "VerticalBoxSlot_8",
+      "ObjectFlags": 8,
+      "Properties": {
+        "Parent": 202,
+        "Content": 197,
+        "$ReferencedObjects": [
+          202,
+          197
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 231,
+      "Type": "Export",
+      "ObjectClass": 41,
+      "Outer": 149,
+      "ObjectName": "LookingForServers_INST",
+      "ObjectFlags": 8,
+      "Properties": {
+        "MovieScene": 191,
+        "AnimationBindings": [
+          {
+            "WidgetName": "TextBlock_3",
+            "SlotWidgetName": "None",
+            "AnimationGuid": {
+              "A": -524243092,
+              "B": 1245660944,
+              "C": -689699182,
+              "D": 1930065836
+            },
+            "bIsRootWidget": false
+          }
+        ],
+        "bLegacyFinishOnStop": false,
+        "CompiledData": 192,
+        "Signature": {
+          "A": -1040396177,
+          "B": 1300276028,
+          "C": -768361085,
+          "D": -1814486977
+        },
+        "$ReferencedObjects": [
+          191,
+          192
+        ]
+      }
+    },
+    {
+      "ObjectIndex": 232,
+      "Type": "Export",
+      "ObjectClass": 44,
+      "Outer": 149,
+      "ObjectName": "WidgetTree",
+      "ObjectFlags": 8,
+      "Properties": {
+        "RootWidget": 178,
+        "$ReferencedObjects": [
+          178
+        ]
+      }
+    }
+  ]
+}

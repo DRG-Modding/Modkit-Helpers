@@ -54,13 +54,10 @@ Figure out why many ABPs with an assigned skeleton crashes editor
 Figure out why some BehaviourTree assets crash on opening but others don't - seems to be tied to whether or not they have a blackboard generated, but sometime not??
 
 =========================================
-U38 GENERATION
+U38P10 GENERATION
 =========================================
 
-Things to check:
-- "/Enemies/HydraWeed/Assets/ANIM_HydraWeed_Heart_Damaged_Additive" fbx has valid ref pose when generating in editor
-
-- These are all empty anims so make sure their JSONs aren't generated
+- These are all empty anims so make sure their JSONs aren't generated (or just ignore)
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_L_OFF.uasset",
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_L_ON.uasset",
     "/WeaponsNTools/Drills/Animations/HeavyDual_Drill_R_OFF.uasset",
@@ -72,6 +69,9 @@ Things to check:
     "/GameElements/Objectives/Facility/DefenseTurret/Assets/ANIM_Force_Field_Turret_Forcefield_Turret_Root_ForceField_Turret_Compressed"
 
 - Figure out why many ABPs with an assigned skeleton crashes editor
+
+- Missing anim:
+    Content\GameElements\Objectives\Facility\DefenseTurret\Animations\ANIM_Gun_Turret_Close_Pose.uasset
 
 - "/Script/AnimationSharing.AnimationSharingSetup" is simple asset
 
@@ -92,9 +92,10 @@ Things to check:
     /Game/WeaponsNTools/GrapplingGun/SK_Pistol_GrapplingGun_01 (SK_Pistol_GrapplingGun_01_Skeleton)
 
 Before generating in editor:
-1. Run fmodel mass export script
-2. Copy 6 missing animations from previous project
-3. Use blender script to mass convert actorX to fbx
+1. Run cue4 mass export script
+2. Use blender script to mass convert actorX to fbx
+3. Copy fbx files into JSON output
+4. Copy in the fixed single frame anims fbx into JSON output
 
 Order to generate:
 1. Cooked assets
@@ -115,4 +116,10 @@ Order to generate:
 16. Simple Assets
 17. Make sure sound classes + sub mixes are connected
 18. Copy in correct fonts
-19. Any duplicate uncook assets
+19. Delete Content\Particles\NC_GlobalParams.uasset
+
+Then:
+1. Run check missing files.py and generate missing files if any
+2. Copy in the _ folders and the umaps
+3. Run a test cook on all folders except Game/Map/SapceRig
+4. Run generateDDC bat

@@ -2,7 +2,7 @@ import os
 import subprocess
 
 CONTENT_PATH = "F:\\DRG Modding\\DRGPacker\\_unpacked\\FSD\\Content"
-OUTPUT_PATH = "F:\\DRG Modding\\DRGPacker\\JSON\\Animation Stuff\\UModel Export\\Missing Anims"
+OUTPUT_PATH = "F:\\DRG Modding\\DRGPacker\\JSON\\Animation Stuff\\UModel Export\\Test Missing Anims"
 UMODEL_EXE = "F:\\DRG Modding\\DRGTools\\UModel\\umodel.exe"
 
 def main():
@@ -42,7 +42,7 @@ def main():
                 skeleton_path = skeleton_path.replace("Content", CONTENT_PATH)
                 skeleton_path = skeleton_path.replace("/", "\\")
                 skeleton_path = skeleton_path.replace(skeleton_path.split("\\")[-1], "")
-                skeleton_path = skeleton_path.replace("\\Game", CONTENT_PATH)
+                skeleton_path = skeleton_path.replace("\\Game", CONTENT_PATH, 1)
                 out_path = skeleton_path.replace(CONTENT_PATH, OUTPUT_PATH)
                 
                 output = subprocess.Popen([
@@ -66,7 +66,7 @@ def main():
 
         for root, _, all_files in os.walk(out_path):
             for file in all_files:
-                if file.startswith("ANIM_"):
+                if file.startswith("ANIM_") and not file.endswith(".fbx"):
                     if file not in names:
                         print(os.path.join(root, file))
                         os.remove(os.path.join(root, file))

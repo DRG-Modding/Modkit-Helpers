@@ -1,0 +1,96 @@
+NumFrames = 1
+KeyEncodingFormat = AKF_PerTrackCompression (2)
+TranslationCompressionFormat = ACF_Identity (6)
+RotationCompressionFormat = ACF_Identity (6)
+ScaleCompressionFormat = ACF_Identity (6)
+CompressedTrackOffsets[0] = {}
+CompressedScaleOffsets =
+{
+    OffsetData[7] = { 0, 16, 48, 72, 96, 140, 184 }
+    StripSize = 1
+}
+TrackToSkeletonMapTable[7] =
+{
+    TrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    TrackToSkeletonMapTable[1] = { BoneTreeIndex=2 }
+    TrackToSkeletonMapTable[2] = { BoneTreeIndex=3 }
+    TrackToSkeletonMapTable[3] = { BoneTreeIndex=4 }
+    TrackToSkeletonMapTable[4] = { BoneTreeIndex=6 }
+    TrackToSkeletonMapTable[5] = { BoneTreeIndex=8 }
+    TrackToSkeletonMapTable[6] = { BoneTreeIndex=10 }
+}
+CompressedTrackToSkeletonMapTable[7] =
+{
+    CompressedTrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    CompressedTrackToSkeletonMapTable[1] = { BoneTreeIndex=2 }
+    CompressedTrackToSkeletonMapTable[2] = { BoneTreeIndex=3 }
+    CompressedTrackToSkeletonMapTable[3] = { BoneTreeIndex=4 }
+    CompressedTrackToSkeletonMapTable[4] = { BoneTreeIndex=6 }
+    CompressedTrackToSkeletonMapTable[5] = { BoneTreeIndex=8 }
+    CompressedTrackToSkeletonMapTable[6] = { BoneTreeIndex=10 }
+}
+CompressedCurveData = { FloatCurves[0]={} }
+Interpolation = Linear (0)
+AdditiveAnimType = AAT_None (0)
+RefPoseType = ABPT_None (0)
+RetargetSource = None
+RefPoseSeq = None
+RefFrameIndex = 0
+RetargetSourceAssetReferencePose[0] = {}
+bEnableRootMotion = false
+AuthoredSyncMarkers[0] = {}
+BakedPerBoneCustomAttributeData[0] = {}
+Notifies[0] = {}
+SequenceLength = 0.0326797
+RateScale = 1
+RawCurveData = { FloatCurves[0]={} }
+Skeleton = Skeleton'GameElements/Objectives/Facility/DefenseTurret/Assets/SK_Facility_Gun_Turret_Dummy_01_Skeleton.SK_Facility_Gun_Turret_Dummy_01_Skeleton'
+
+// Sequence: ANIM_Gun_Turret_Close_Pose
+NumFrames = 1
+KeyEncodingFormat = AKF_PerTrackCompression (2)
+TranslationCompressionFormat = ACF_Identity (6)
+RotationCompressionFormat = ACF_Identity (6)
+ScaleCompressionFormat = ACF_Identity (6)
+CompressedTrackOffsets[0] = {}
+CompressedScaleOffsets =
+{
+    OffsetData[7] = { 0, 16, 48, 72, 96, 140, 184 }
+    StripSize = 1
+}
+TrackToSkeletonMapTable[7] =
+{
+    TrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    TrackToSkeletonMapTable[1] = { BoneTreeIndex=2 }
+    TrackToSkeletonMapTable[2] = { BoneTreeIndex=3 }
+    TrackToSkeletonMapTable[3] = { BoneTreeIndex=4 }
+    TrackToSkeletonMapTable[4] = { BoneTreeIndex=6 }
+    TrackToSkeletonMapTable[5] = { BoneTreeIndex=8 }
+    TrackToSkeletonMapTable[6] = { BoneTreeIndex=10 }
+}
+CompressedTrackToSkeletonMapTable[7] =
+{
+    CompressedTrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    CompressedTrackToSkeletonMapTable[1] = { BoneTreeIndex=2 }
+    CompressedTrackToSkeletonMapTable[2] = { BoneTreeIndex=3 }
+    CompressedTrackToSkeletonMapTable[3] = { BoneTreeIndex=4 }
+    CompressedTrackToSkeletonMapTable[4] = { BoneTreeIndex=6 }
+    CompressedTrackToSkeletonMapTable[5] = { BoneTreeIndex=8 }
+    CompressedTrackToSkeletonMapTable[6] = { BoneTreeIndex=10 }
+}
+CompressedCurveData = { FloatCurves[0]={} }
+Interpolation = Linear (0)
+AdditiveAnimType = AAT_None (0)
+RefPoseType = ABPT_None (0)
+RetargetSource = None
+RefPoseSeq = None
+RefFrameIndex = 0
+RetargetSourceAssetReferencePose[0] = {}
+bEnableRootMotion = false
+AuthoredSyncMarkers[0] = {}
+BakedPerBoneCustomAttributeData[0] = {}
+Notifies[0] = {}
+SequenceLength = 0.0326797
+RateScale = 1
+RawCurveData = { FloatCurves[0]={} }
+Skeleton = Skeleton'GameElements/Objectives/Facility/DefenseTurret/Assets/SK_Facility_Gun_Turret_Dummy_01_Skeleton.SK_Facility_Gun_Turret_Dummy_01_Skeleton'
